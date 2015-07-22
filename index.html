@@ -8,6 +8,7 @@
         <title>Nap Joseph N. Calub</title>
         
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:400,500">
         <link rel="stylesheet" type="text/css" href="./static/css/index.css">
         
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,17 +19,73 @@
     </head>
     <body>
         
-        <div class="container main">
+        <!-- templates -->
+        <script id="left-column-template" type="text/x-handlebars-template">
+            <h1 class="main-title">{{ user.title }}</h1>
+            <p class="main-subtitle">{{ user.subtitle }}</p>
+        </script>
+        
+        <script id="career-objectives-template" type="text/x-handlebars-template">
+        <h2>CAREER OBJECTIVES</h2>
+        <ul>
+        {{# each careerObjectives }}
+            <li>{{ this }}</li>
+        {{/ each }}
+        </ul>
+        </ul>
+        </script>
+        
+        <script id="featured-projects-template" type="text/x-handlebars-template">
+        <h2>FEATURED PROJECTS</h2>
+        <ul class="unpadded">
+        {{# each featuredProjects }}
+            <h3>{{ name }}</h3>
+            <p>{{ description }}</p>
+        {{/ each }}
+        </ul>
+        </script>
+        
+        <script id="work-experience-template" type="text/x-handlebars-template">
+        <h2>WORK EXPERIENCE</h2>
+        <ul>
+        {{# each workExperience }}
+            <h3>{{ name }}</h3>
+            <ul>
+                {{# each experience }}
+                    <li>{{ description }}, {{ dateStarted }}
+                    </li>
+                {{/ each }}
+            </ul>
+        {{/ each }}
+        </ul>
+        </script>
+        
+        <script id="education-template" type="text/x-handlebars-template">
+        <h2>EDUCATION</h2>
+        <ul>
+        {{# each education }}
+            <h3>{{ school }} - {{ address }}</h3>
+            <ul>
+                {{# each degrees }}
+                    <li>{{ name }} - {{ year }}
+                    </li>
+                {{/ each }}
+            </ul>
+        {{/ each }}
+        </ul>
+        </script>
+        
+        <div id="main" class="container">
             
             <!-- left column -->
-            <div class="col-md-4">
-                <h1 class="main-title">{{ user.title }}</h1>
-                <h2 class="main-subtitle">{{ user.subtitle }}</h2>
-            </div>
+            <div id="left-column" class="col-md-3"></div>
             
             <!-- right column -->
-            <div class="col-md-8">
-                
+            <div id="right-column" class="col-md-9">
+                <div id="career-objectives-holder" class="row"></div>
+                <div id="featured-projects-holder" class="row"></div>
+                <div id="work-experience-holder" class="row"></div>
+                <div id="education-holder" class="row"></div>
             </div>
             
         </div>

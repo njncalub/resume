@@ -1,15 +1,30 @@
 body {
     background-color: #BCBCBC;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-.main {
+#main {
     background-color: #ffffff;
 }
 
-.main-title {
+h1 {
+    color: #0064b0;
     text-transform: uppercase;
+    font-size: 40pt;
 }
 
-.main-subtitle {
-    
+h2 {
+    color: #0064b0;
+    text-transform: uppercase;
+    font-size: 12pt;
+    font-weight: bolder;
+}
+
+h3 {
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.unpaddded {
+    padding-left: 0;
 }
