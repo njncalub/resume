@@ -19,10 +19,6 @@ a, a:link, a:hover {
   padding-bottom: 15px;
 }
 
-.section-title {
-  cursor: pointer;
-}
-
 .progress {
   height: 25px;
   margin-bottom: 10px;

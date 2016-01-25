@@ -35,6 +35,7 @@
   "workExperience": {
     "_meta": {
       "sectionName": "Work Experience",
+      "sectionDetails": "I served in various capacities e.g. trainer, instructor, coach, and web/mobile developer using mainly Django and Titanium.",
       "sectionChildrenName": "Position"
     },
     "children": [
@@ -51,7 +52,7 @@
               "dateEnded": "January 2016"
             },
             "title": "Software Developer",
-            "details": "As a Python developer by heart, I specialize in creating web and hybrid mobile solutions using Django and Flask, together with other frameworks like Bootstrap and AngularJS. I also create cross-platform mobile applications using Appcelerator Titanium."
+            "details": "I specialized in creating web and hybrid mobile solutions using Python and Django, together with frontend frameworks like Bootstrap and AngularJS. I also created cross-platform mobile applications using Appcelerator Titanium."
           }
         ]
       },
@@ -94,7 +95,8 @@
   },
   "featuredProjects": {
     "_meta": {
-      "sectionName": "Projects"
+      "sectionName": "Projects",
+      "sectionDetails": "I served as team leader or team member in various projects such as educational games, web/mobile applications, and open source utilities."
     },
     "children": [
       {
@@ -372,6 +374,15 @@
           "address": "Philippine Women's College of Davao, University Avenue, Juna Subdivision, 8000 Davao City, Philippines"
         },
         "title": "Campus Devcon during the IT Festival of the BSIT Program of the Philippine Women's College of Davao"
+      },
+      {
+        "_meta": {
+          "dateStarted": "December 2014",
+          "dateEnded": null,
+          "position": "Coach",
+          "address": "4F, The Linden Suites, 37 San Miguel Ave, Ortigas Center, Pasig, 1600 Metro Manila, Philippines"
+        },
+        "title": "1st Philippine Startup Challenge National Finals"
       },
       {
         "_meta": {

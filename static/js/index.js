@@ -94,18 +94,20 @@ function getTemplateAjax (path, callback) {
 }
 
 function renderHandlebarsTemplate (withTemplate, inElement, withData) {
+  document.title = 'Curriculum Vitae – ' + withData.personalDetails.title || 'Curriculum Vitae';
   getTemplateAjax(withTemplate, function(template) {
     jqueryNoConflict(inElement).html(template(withData));
   });
 }
 
 function registerEvents () {
-  jqueryNoConflict(document).on('click', '.section-title', function (e) {
-    var sectionTitle, content;
-    sectionTitle = $(this);
-    content = sectionTitle.next();
-    content.slideToggle(750, function () {});
-  });
+  // NOTE: removed for now
+  // jqueryNoConflict(document).on('click', '.section-title', function (e) {
+  //   var sectionTitle, content;
+  //   sectionTitle = $(this);
+  //   content = sectionTitle.next();
+  //   content.slideToggle(750, function () {});
+  // });
 }
 
 function registerHelpers () {

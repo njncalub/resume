@@ -2,10 +2,12 @@
   {{#personalDetails}}
   <div id="personalDetails">
     <img id="avatar" class="img-responsive" src="{{_meta.imageURL}}" />
-    <h1 id="displayName">{{title}}</h1>
-    <div id="webAddress" class="personal-details"><i class="fa fa-globe fa-fw"></i>&nbsp; <a href="{{_meta.contactInfo.url}}">{{_meta.contactInfo.urlDisplay}}</a></div>
-    <div id="emailAddress" class="personal-details"><i class="fa fa-envelope-o fa-fw"></i>&nbsp; <a href="mailto:{{_meta.contactInfo.emailAddress}}">{{_meta.contactInfo.emailAddress}}</a></div>
-    <div id="mobileNumber" class="personal-details"><i class="fa fa-phone fa-fw"></i>&nbsp; <a href="callto:{{_meta.contactInfo.mobileNumber}}">{{_meta.contactInfo.mobileNumberDisplay}}</a></div>
+    <div class="details">
+      <h1 id="displayName">{{title}}</h1>
+      <div id="webAddress" class="personal-details"><i class="fa fa-globe fa-fw"></i>&nbsp; <a class="ignore-link" href="{{_meta.contactInfo.url}}">{{_meta.contactInfo.urlDisplay}}</a></div>
+      <div id="emailAddress" class="personal-details"><i class="fa fa-envelope-o fa-fw"></i>&nbsp; <a class="ignore-link" href="mailto:{{_meta.contactInfo.emailAddress}}">{{_meta.contactInfo.emailAddress}}</a></div>
+      <div id="mobileNumber" class="personal-details"><i class="fa fa-phone fa-fw"></i>&nbsp; <a class="ignore-link" href="callto:{{_meta.contactInfo.mobileNumber}}">{{_meta.contactInfo.mobileNumberDisplay}}</a></div>
+    </div>
   </div>
   {{/personalDetails}}
   
@@ -43,6 +45,7 @@
   {{#workExperience}}
   <div id="workExperience" class="section">
     <h2 class="section-title">{{_meta.sectionName}}</h2>
+    <span class="section-details">{{_meta.sectionDetails}}</span>
     <ul>
       {{#children}}
       <li>
@@ -67,6 +70,7 @@
   {{#featuredProjects}}
   <div id="featuredProjects" class="section">
     <h2 class="section-title">{{_meta.sectionName}}</h2>
+    <span class="section-details">{{_meta.sectionDetails}}</span>
     <ul>
       {{#children}}
       <li>
@@ -164,7 +168,7 @@
         <div class="list-title">{{title}}</div>
         <div class="list-subtitle">{{#buildPosition _meta}}{{/buildPosition}}</div>
         <div>{{_meta.company}}</div>
-        <div><a href="mailto:{{_meta.emailAddress}}">{{_meta.emailAddress}}</a></div>
+        <div><a class="ignore-link" href="mailto:{{_meta.emailAddress}}">{{_meta.emailAddress}}</a></div>
       </li>
       {{/children}}
     </ul>
