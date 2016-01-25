@@ -1,0 +1,101 @@
+@media print {
+  @page {
+    margin: 0.5cm;
+  }
+  
+  body {
+    font: 12pt Georgia, "Times New Roman", Times, serif;
+    line-height: 1.3;
+  }
+  
+  .section-title {
+    page-break-before: avoid;
+    page-break-inside: avoid;
+  }
+  
+  li {
+    page-break-after: avoid;
+    page-break-inside: avoid;
+  }
+  
+  div a:after {
+    font-size: 80%;
+  }
+  
+  #avatar {
+    display: none;
+  }
+  
+  .progress-bars {
+    display: none;
+  }
+  
+  .progress {
+    height: 25px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  .progress-bar {
+    background-color: #0064b0;
+    border-radius: 5px;
+    text-align: left;
+    padding-left: 7px;
+    line-height: 25px;
+  }
+  
+  h1 {
+    color: #0064b0;
+    text-transform: uppercase;
+    font-size: 40pt;
+  }
+  
+  h2 {
+    color: #0064b0;
+    text-transform: uppercase;
+    font-size: 12pt;
+    font-weight: bolder;
+  }
+  
+  ul {
+    list-style-type: square;
+    list-style-position: outside;
+  }
+  
+  li {
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  
+  .list-inner {
+    padding-left: 0px;
+    list-style-position: inside;
+  }
+  
+  .list-title {
+    font-size: 10pt;
+    font-weight: bold;
+    color: #0064b0;
+  }
+  
+  .list-subtitle {
+    font-size: 9pt;
+    font-style: italic;
+    color: #3F3F3F;
+  }
+  
+  .list-details {
+    text-align: justify;
+  }
+  
+  .child-list-title {
+    font-weight: normal;
+  }
+  
+  .date-range {
+    font-style: italic;
+  }
+  
+  li.references {
+    padding-left: 0px;
+  }
+}

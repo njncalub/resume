@@ -1,0 +1,895 @@
+{
+  "personalDetails": {
+    "_meta": {
+      "name": {
+        "lastName": "Calub",
+        "middleName": "Narvaez",
+        "firstName": "Nap Joseph"
+      },
+      "contactInfo": {
+        "mainAddress": "Blk 14, Lot 12, Ph 2, Dao St, Awhag Subd, Bacaca Rd, Davao City 8000, Philippines",
+        "mobileNumber": "+639228962503",
+        "mobileNumberDisplay": "+63 922 896 2503",
+        "emailAddress": "njncalub@gmail.com",
+        "url": "http://njncalub.github.io",
+        "urlDisplay": "njncalub.github.io"
+      },
+      "imageURL": "./static/avatar.jpg"
+    },
+    "title": "Nap Joseph Calub",
+    "description": "Web and Mobile Developer"
+  },
+  "careerObjectives": {
+    "_meta": {
+      "sectionName": "Career Objectives"
+    },
+    "children": [
+      {
+        "details": "To pursue a career that will involve the application of my skills in research, software development, and management."
+      },
+      {
+        "details": "To become proficient in different fields and programming languages to create the best solutions."
+      }
+    ]
+  },
+  "workExperience": {
+    "_meta": {
+      "sectionName": "Work Experience",
+      "sectionChildrenName": "Position"
+    },
+    "children": [
+      {
+        "_meta": {
+          "url": "http://www.ingenuity.ph"
+        },
+        "title": "Ingenuity Global Consulting",
+        "subtitle": "3F, 1.18 Centron Building, Elpidio Quirino Ave, Davao City, 8000, Davao del Sur, Philippines",
+        "children": [
+          {
+            "_meta": {
+              "dateStarted": "September 2013",
+              "dateEnded": "January 2016"
+            },
+            "title": "Software Developer",
+            "details": "As a Python developer by heart, I specialize in creating web and hybrid mobile solutions using Django and Flask, together with other frameworks like Bootstrap and AngularJS. I also create cross-platform mobile applications using Appcelerator Titanium."
+          }
+        ]
+      },
+      {
+        "_meta": {
+          "url": "http://www.hackademy.ph"
+        },
+        "title": "Hackademy",
+        "subtitle": "3F, 1.18 Centron Building, Elpidio Quirino Ave, Davao City, 8000, Davao del Sur, Philippines",
+        "children": [
+          {
+            "_meta": {
+              "dateStarted": "June 2015",
+              "dateEnded": "July 2015"
+            },
+            "title": "Trainer",
+            "details": "I facilitated the training of high school students in using Python and Django to create web applications that can be used for improving their current school systems."
+          }
+        ]
+      },
+      {
+        "_meta": {
+          "url": "http://www.addu.edu.ph"
+        },
+        "title": "Ateneo de Davao University",
+        "subtitle": "E. Jacinto Street, 8016 Davao City, Philippines",
+        "children": [
+          {
+            "_meta": {
+              "dateStarted": "June 2014",
+              "dateEnded": "November 2014"
+            },
+            "title": "Instructor",
+            "subtitle": "Information Systems Department",
+            "details": "As an instructor in the Information Systems department of the Computer Studies cluster, I handled the course: Fundamentals of Computer Software & Applications, for 40 students. Aside from the regular course, I also trained students in web and mobile app development and provided seminars to both IT and non-IT students on the latest technology trends."
+          }
+        ]
+      },
+      {
+        "_meta": {
+          "url": "http://www.aiesecdavao.com"
+        },
+        "title": "AIESEC in Davao",
+        "subtitle": "E. Jacinto Street, 8016 Davao City, Philippines",
+        "children": [
+          {
+            "_meta": {
+              "dateStarted": "June 2012",
+              "dateEnded": "April 2014"
+            },
+            "title": "Director for Information Systems",
+            "subtitle": "Marketing and Communications Department",
+            "details": "I research, create and maintain information systems to improve the local committee operations and processes, and also responsible for making sure that information is correct and properly disseminated."
+          },
+          {
+            "_meta": {
+              "dateStarted": "June 2012",
+              "dateEnded": "November 2012"
+            },
+            "title": "Logistics Manager and Exchange Participant Director",
+            "subtitle": "Raising Awareness for Individuals with Needs (R.A.I.N. for Kids) Project",
+            "details": "I oversee the international exchange participants' deliverables and communicate with the two partner institutions to ensure the success of the project."
+          },
+          {
+            "_meta": {
+              "dateStarted": "November 2011",
+              "dateEnded": "April 2012"
+            },
+            "title": "Team Member",
+            "subtitle": "Talent Management Department",
+            "details": "I managed the exit interviews of the graduating members."
+          }
+        ]
+      }
+    ]
+  },
+  "featuredProjects": {
+    "_meta": {
+      "sectionName": "Projects"
+    },
+    "children": [
+      {
+        "_meta": {
+          "dateStarted": "January 2016",
+          "dateEnded": "ongoing",
+          "technologies": [
+            "HTML5",
+            "Bootstrap",
+            "Handlebars.js"
+          ]
+        },
+        "title": "ResuMaker",
+        "details": "Online CV/resume template used for static hosting."
+      },
+      {
+        "_meta": {
+          "dateStarted": "September 2015",
+          "dateEnded": "January 2016",
+          "technologies": [
+            "Django",
+            "Django REST Framework",
+            "Django OAuth Toolkit",
+            "AngularJS",
+            "Sentry",
+            "Jenkins"
+          ]
+        },
+        "title": "Engage",
+        "details": "An internal employee recognition platform built with Django. I was hired to redesign and upgrade the system structure to optimize it for API use."
+      },
+      {
+        "_meta": {
+          "dateStarted": "March 2015",
+          "dateEnded": "October 2015",
+          "technologies": [
+            "Django",
+            "Django REST Framework",
+            "Titanium",
+            "Redis",
+            "Redis Cluster",
+            "Instagram API",
+            "Google API",
+            "Twitter API"
+          ]
+        },
+        "title": "Hybrid Mobile Application Projects",
+        "details": "I refactored and improved the multiple API backends of various apps, created hybrid iOS and Android applications using Appcelerator Titanium, used Redis and Redis Clusters for managing sets of data, and integrated various 3rd party APIs to our applications."
+      },
+      {
+        "_meta": {
+          "dateStarted": "July 2015",
+          "dateEnded": "October 2015",
+          "technologies": [
+            "Titanium"
+          ]
+        },
+        "title": "Amber",
+        "details": "I assisted on the bug fixes and addtional features for the hybrid mobile application."
+      },
+      {
+        "_meta": {
+          "dateStarted": "June 2015",
+          "dateEnded": null,
+          "technologies": [
+            "Google Sheets",
+            "Google Apps Script"
+          ]
+        },
+        "title": "TapSiLog",
+        "details": "Simple internal DTR application to log hours worked; with automation features using GAS."
+      },
+      {
+        "_meta": {
+          "dateStarted": "October 2014",
+          "dateEnded": "November 2014",
+          "technologies": [
+            "Semantic UI",
+            "NodeJS",
+            "Django"
+          ]
+        },
+        "title": "Web Development Project II",
+        "details": "I used NodeJS for sending real-time push notifications to connected clients."
+      },
+      {
+        "_meta": {
+          "dateStarted": "October 2014",
+          "dateEnded": null,
+          "technologies": [
+            "Django"
+          ]
+        },
+        "title": "Not In My Country",
+        "details": "Implemented map data showing different color ranges based on existing data from the World Bank API."
+      },
+      {
+        "_meta": {
+          "dateStarted": "September 2014",
+          "dateEnded": "January 2015",
+          "technologies": [
+            "Facebook API",
+            "Parse.com API",
+            "Titanium"
+          ]
+        },
+        "title": "F45 Playoffs",
+        "details": "I created the hybrid mobile application for iOS and Android and used the Parse.com API for storing data and managing authentication."
+      },
+      {
+        "_meta": {
+          "dateStarted": "April 2014",
+          "dateEnded": "September 2014",
+          "technologies": [
+            "Django",
+            "Flask",
+            "ChaplinJS",
+            "AngularJS",
+            "PostgreSQL",
+            "MongoDB",
+            "Git",
+            "Mercurial"
+          ]
+        },
+        "title": "Web Development Projects I",
+        "details": "I used different technologies to upgrade existing systems."
+      },
+      {
+        "_meta": {
+          "dateStarted": "June 2014",
+          "dateEnded": "August 2014",
+          "technologies": [
+            "Django",
+            "Mezzanine",
+            "PostgreSQL",
+            "AngularJS"
+          ]
+        },
+        "title": "Elsie Information System",
+        "details": "A Local Committee Information System for AIESEC in Davao."
+      },
+      {
+        "_meta": {
+          "dateStarted": "November 2012",
+          "dateEnded": "February 2014",
+          "technologies": [
+            "HTML5",
+            "JavaScript",
+            "LimeJS",
+            "NimbusBase",
+            "Django",
+            "south",
+            "REST",
+            "django-tastypie"
+          ]
+        },
+        "title": "The Hidden Cloud Academy for the Overlooked Skills",
+        "details": "An Information Technology project incorporating game-based learning with existing cloud services to improve reading speed and comprehension."
+      },
+      {
+        "_meta": {
+          "dateStarted": "July 2013",
+          "dateEnded": null,
+          "technologies": [
+            "WordPress"
+          ]
+        },
+        "title": "Theodore Rosebelt WordPress Theme",
+        "details": "A WordPress theme for an online flower shop."
+      },
+      {
+        "_meta": {
+          "dateStarted": "May 2013",
+          "dateEnded": null,
+          "technologies": [
+            "Django",
+            "Django Haystack"
+          ]
+        },
+        "title": "Possibilities",
+        "details": "An online product listing with location aware search presented for the OJT course."
+      },
+      {
+        "_meta": {
+          "dateStarted": "June 2012",
+          "dateEnded": "March 2013",
+          "technologies": [
+            "Visual C#",
+            "MySQL"
+          ]
+        },
+        "title": "JPLAUREL AIS",
+        "details": "An Academic Information System (AIS) for the Jose P. Laurel Sr. Elementary School presented for the CS272/CS315 course."
+      },
+      {
+        "_meta": {
+          "dateStarted": "November 2011",
+          "dateEnded": "November 2011",
+          "technologies": [
+            "Python 2.x",
+            "TkInter"
+          ]
+        },
+        "title": "iPhone 0.4s Simulator",
+        "details": "A simple object-oriented contact/phonebook manager presented for the IT213 course."
+      },
+      {
+        "_meta": {
+          "dateStarted": "August 2011",
+          "dateEnded": "October 2011",
+          "technologies": [
+            "C++"
+          ]
+        },
+        "title": "The King’s Number",
+        "details": "A number game incorporating the set theory of discrete mathematics presented for the MATH422C course."
+      }
+    ]
+  },
+  "featuredEvents": {
+    "_meta": {
+      "sectionName": "Tech and Design Events"
+    },
+    "children": [
+      {
+        "_meta": {
+          "dateStarted": "November 2015",
+          "dateEnded": null,
+          "position": "Organizer",
+          "address": "PLDT-Smart Regional Office, Ponciano St, Davao City 8000, Philippines"
+        },
+        "title": "4th Startup Weekend Davao"
+      },
+      {
+        "_meta": {
+          "dateStarted": "October 2015",
+          "dateEnded": null,
+          "position": "Judge",
+          "address": "Apo View Hotel, Davao City 8000, Philippines"
+        },
+        "title": "DTI and PSITE (Philippine Society of Information Technology Educators) Region XI Idea Pitching Competition"
+      },
+      {
+        "_meta": {
+          "dateStarted": "September 2015",
+          "dateEnded": null,
+          "position": "Resource Speaker",
+          "address": "J. Catolico Sr. Avenue, General Santos City, Jose Catolico Sr. Ave, General Santos City, South Cotabato, Philippines"
+        },
+        "title": "7th PSITS (Philippine Society of Information Technology Students) Region XII Convention"
+      },
+      {
+        "_meta": {
+          "dateStarted": "August 2015",
+          "dateEnded": null,
+          "position": "Organizer",
+          "address": "PLDT-Smart Regional Office, Ponciano St, Davao City 8000, Philippines"
+        },
+        "title": "AngelHack Davao 2015"
+      },
+      {
+        "_meta": {
+          "dateStarted": "July 2015",
+          "dateEnded": null,
+          "position": "Organizer",
+          "address": "SMX Convention Center, SM City Lanang, Davao City 8000, Philippines"
+        },
+        "title": "GraphiCon Davao 4"
+      },
+      {
+        "_meta": {
+          "dateStarted": "October 2015",
+          "dateEnded": null,
+          "position": "Resource Speaker",
+          "address": "Philippine Women's College of Davao, University Avenue, Juna Subdivision, 8000 Davao City, Philippines"
+        },
+        "title": "PWC Campus DevCon"
+      },
+      {
+        "_meta": {
+          "dateStarted": "December 2014",
+          "dateEnded": null,
+          "position": "Participant",
+          "address": "Cinema 4, Gaisano Mall of Davao, Davao City 8000, Philippines"
+        },
+        "title": "GraphiCon Davao 3"
+      },
+      {
+        "_meta": {
+          "dateStarted": "November 2014",
+          "dateEnded": null,
+          "position": "Resource Speaker",
+          "address": "PLDT-Smart Regional Office, Ponciano St, Davao City 8000, Philippines"
+        },
+        "title": "GDG DevFest 2014 (Google Developers Group – Davao)"
+      },
+      {
+        "_meta": {
+          "dateStarted": "August 2014",
+          "dateEnded": null,
+          "position": "Organizer",
+          "address": "F213, Finster Building, Ateneo de Davao University, Davao City 8000, Philippines"
+        },
+        "title": "3rd Startup Weekend Davao"
+      },
+      {
+        "_meta": {
+          "dateStarted": "April 2014",
+          "dateEnded": null,
+          "position": "Resource Speaker",
+          "address": "F613 Laboratories, Finster Building, Ateneo de Davao University, Davao City 8000, Philippines"
+        },
+        "title": "Multimedia and Mobile Technologies Boot Camp"
+      },
+      {
+        "_meta": {
+          "dateStarted": "January 2014",
+          "dateEnded": null,
+          "position": "Organizer",
+          "address": "F213, Finster Building, Ateneo de Davao University, Davao City 8000, Philippines"
+        },
+        "title": "First Ateneo Campus DevCon"
+      },
+      {
+        "_meta": {
+          "dateStarted": "November 2013",
+          "dateEnded": null,
+          "position": "Participant",
+          "address": "PLDT-Smart Regional Office, Ponciano St, Davao City 8000, Philippines"
+        },
+        "title": "AngelHack Davao: #Hack2Help"
+      },
+      {
+        "_meta": {
+          "dateStarted": "August 2013",
+          "dateEnded": null,
+          "position": "2nd runner-up, PLYM",
+          "address": "3F, 1.18 Centron Building, Elpidio Quirino Ave, Davao City, 8000, Davao del Sur, Philippines"
+        },
+        "title": "2nd Startup Weekend Davao"
+      },
+      {
+        "_meta": {
+          "dateStarted": "December 2012",
+          "dateEnded": null,
+          "position": "Participant",
+          "address": "CAP Auditorium, Anda St, Davao City 8000, Philippines"
+        },
+        "title": "GraphiCon Davao 2"
+      }
+    ]
+  },
+  "educationalBackground": {
+    "_meta": {
+      "sectionName": "Educational Background",
+      "sectionChildrenName": "Degrees"
+    },
+    "children": [
+      {
+        "_meta": {
+          "url": "http://www.addu.edu.ph/",
+          "address": "E. Jacinto Street, 8016 Davao City, Philippines"
+        },
+        "title": "Ateneo de Davao University",
+        "children": [
+          {
+            "_meta": {
+              "dateStarted": "June 2010",
+              "dateEnded": "March 2014"
+            },
+            "title": "Bachelor of Science in Information Technology",
+            "subtitle": "2014"
+          }
+        ]
+      }
+    ]
+  },
+  "workshopsAndSeminars": {
+    "_meta": {
+      "sectionName": "Workshops, Seminars, and Conferences Attended"
+    },
+    "children": [
+      {
+        "_meta": {
+          "dateStarted": "April 2014",
+          "dateEnded": null
+        },
+        "title": "Conference in Computing Research and Software Engineering Projects",
+        "subtitle": "6th Floor, Finster Building, Ateneo de Davao University, Davao City 8000, Philippines",
+        "details": "Resource Speaker"
+      },
+      {
+        "_meta": {
+          "dateStarted": "October 2013",
+          "dateEnded": null
+        },
+        "title": "National Leadership Development Conference 2013",
+        "subtitle": "Island Cove Hotel and Leisure Park, Binakayan, 4104 Kawit, Cavite, Philippines"
+      },
+      {
+        "_meta": {
+          "dateStarted": "October 2013",
+          "dateEnded": null
+        },
+        "title": "Y2B Youth To Business Forum",
+        "subtitle": "Ateneo de Manila University, Katipunan Ave, Quezon City, 1108 Metro Manila, Philippines"
+      },
+      {
+        "_meta": {
+          "dateStarted": "July 2013",
+          "dateEnded": "August 2013"
+        },
+        "title": "Illumedia WordPress Theme Creation Workshop",
+        "subtitle": "3F, HIJ Building, GSIS Matina, Davao City 8000, Philippines"
+      }
+    ]
+  },
+  "volunteerOrganizations": {
+    "_meta": {
+      "sectionName": "Volunteer Work / Organizations"
+    },
+    "children": [
+      {
+        "_meta": {
+          "url": "http://davaographicdesigners.com/"
+        },
+        "title": "Davao Graphic Designers Community",
+        "details": "Davao Graphic Designers Community (DGDC) is a non-proﬁt organization for showcasing the local talents of artists in Davao City.",
+        "children": [
+          {
+            "_meta": {
+              "dateStarted": "June 2015",
+              "dateEnded": "present"
+            },
+            "title": "Core Group Member"
+          }
+        ]
+      },
+      {
+        "_meta": {
+          "url": "http://devcon.ph/"
+        },
+        "title": "Developers Connect Philippines",
+        "details": "Developers Connect Philippines (DevCon) is a non-proﬁt organization which aims to promote the IT Pinoy Talent mainly by providing a unique venue for IT students, educators, professionals and enthusiasts to Sync, Support and Succeed.",
+        "children": [
+          {
+            "_meta": {
+              "dateStarted": "February 2014",
+              "dateEnded": "present"
+            },
+            "title": "Volunteer, Mindanao Chapter"
+          }
+        ]
+      },
+      {
+        "_meta": {
+          "url": "http://www.facebook.com/AteneoCircleOfComputerStudiesStudents"
+        },
+        "title": "Ateneo Circle of Computer Studies Students",
+        "subtitle": "E. Jacinto Street, 8016 Davao City, Philippines",
+        "details": "The Ateneo Circle of Computer Studies Students or ACCSS is the only academic club for Computer Studies students in Ateneo de Davao University. It seeks to develop its members not just academically but also through events outside the school, while nurturing their spiritual growth and promoting social involvement.",
+        "children": [
+          {
+            "_meta": {
+              "dateStarted": "April 2013",
+              "dateEnded": "April 2014"
+            },
+            "title": "External Vice President"
+          },
+          {
+            "_meta": {
+              "dateStarted": "April 2012",
+              "dateEnded": "April 2013"
+            },
+            "title": "Treasurer"
+          },
+          {
+            "_meta": {
+              "dateStarted": "April 2011",
+              "dateEnded": "April 2012"
+            },
+            "title": "Member"
+          }
+        ]
+      },
+      {
+        "_meta": {
+          "url": "http://arrupe.addu.edu.ph/"
+        },
+        "title": "Arrupe Office of Social Formation",
+        "details": "The Arrupe Office of Social Formation is the social formation arm of Ateneo de Davao University. AOSF is responsible for developing students, faculty and staff, following the teaching and examples of Christ, to be persons for others and, through the promotion of justice, to become leaders in the service of the poor and powerless.",
+        "children": [
+          {
+            "_meta": {
+              "dateStarted": "August 2012",
+              "dateEnded": "April 2014"
+            },
+            "title": "Arrupe Volunteer"
+          },
+          {
+            "_meta": {
+              "dateStarted": "November 2013",
+              "dateEnded": "March 2014"
+            },
+            "title": "NSTP Volunteer"
+          }
+        ]
+      }
+    ]
+  },
+  "skillSet": [
+      {
+        "_meta": {
+          "sectionName": "Tech Stack"
+        },
+        "title": "techStack",
+        "children": [
+          {
+            "_meta": {
+              "value": 8
+            },
+            "title": "Python"
+          },
+          {
+            "_meta": {
+              "value": 9
+            },
+            "title": "Django"
+          },
+          {
+            "_meta": {
+              "value": 8
+            },
+            "title": "HTML5"
+          },
+          {
+            "_meta": {
+              "value": 8
+            },
+            "title": "CSS3"
+          },
+          {
+            "_meta": {
+              "value": 7
+            },
+            "title": "JavaScript"
+          },
+          {
+            "_meta": {
+              "value": 8
+            },
+            "title": "jQuery"
+          },
+          {
+            "_meta": {
+              "value": 8
+            },
+            "title": "Titanium"
+          },
+          {
+            "_meta": {
+              "value": 8
+            },
+            "title": "XML"
+          },
+          {
+            "_meta": {
+              "value": 6
+            },
+            "title": "Java"
+          },
+          {
+            "_meta": {
+              "value": 6
+            },
+            "title": "C++"
+          },
+          {
+            "_meta": {
+              "value": 5
+            },
+            "title": "PHP"
+          },
+          {
+            "_meta": {
+              "value": 6
+            },
+            "title": "WordPress"
+          },
+          {
+            "_meta": {
+              "value": 4
+            },
+            "title": "Flask"
+          },
+          {
+            "_meta": {
+              "value": 7
+            },
+            "title": "Visual C#"
+          }
+        ]
+      },
+      {
+        "_meta": {
+          "sectionName": "SCMs"
+        },
+        "title": "scms",
+        "children": [
+          {
+            "_meta": {
+              "value": 8
+            },
+            "title": "Git"
+          },
+          {
+            "_meta": {
+              "value": 7
+            },
+            "title": "Mercurial"
+          }
+        ]
+      },
+      {
+        "_meta": {
+          "sectionName": "APIs"
+        },
+        "title": "apis",
+        "children": [
+          {
+            "_meta": {
+              "value": 7
+            },
+            "title": "Facebook API"
+          },
+          {
+            "_meta": {
+              "value": 6
+            },
+            "title": "Google API"
+          },
+          {
+            "_meta": {
+              "value": 7
+            },
+            "title": "Instagram API"
+          },
+          {
+            "_meta": {
+              "value": 7
+            },
+            "title": "Twitter API"
+          },
+          {
+            "_meta": {
+              "value": 6
+            },
+            "title": "Parse.com API"
+          }
+        ]
+      },
+      {
+        "_meta": {
+          "sectionName": "Databases"
+        },
+        "title": "databases",
+        "children": [
+          {
+            "_meta": {
+              "value": 8
+            },
+            "title": "PostgreSQL"
+          },
+          {
+            "_meta": {
+              "value": 7
+            },
+            "title": "MySQL"
+          },
+          {
+            "_meta": {
+              "value": 6
+            },
+            "title": "MongoDB"
+          }
+        ]
+      },
+      {
+        "_meta": {
+          "sectionName": "Applications"
+        },
+        "title": "applications",
+        "children": [
+          {
+            "_meta": {
+              "value": 9
+            },
+            "title": "Microsoft Office Suite"
+          },
+          {
+            "_meta": {
+              "value": 8
+            },
+            "title": "Adobe Photoshop"
+          },
+          {
+            "_meta": {
+              "value": 7
+            },
+            "title": "Adobe Illustrator"
+          },
+          {
+            "_meta": {
+              "value": 7
+            },
+            "title": "Adobe Premiere"
+          }
+        ]
+      }
+  ],
+  "professionalReferences": {
+    "_meta": {
+      "sectionName": "References"
+    },
+    "children": [
+      {
+        "_meta": {
+          "position": "Chief Executive Officer",
+          "company": "Ingenuity Global Consulting",
+          "emailAddress": "john@ingenuity.ph"
+        },
+        "title": "John Rey Naranjo"
+      },
+      {
+        "_meta": {
+          "position": "Human Resource Officer",
+          "company": "Ingenuity Global Consulting",
+          "emailAddress": "betsy@ingenuity.ph"
+        },
+        "title": "Beatriz Tulio"
+      },
+      {
+        "_meta": {
+          "position": "Assistant Dean",
+          "department": "Computer Studies Cluster",
+          "company": "Ateneo de Davao University",
+          "emailAddress": "dgmcimafranca@addu.edu.ph"
+        },
+        "title": "Dominique Gerald M. Cimafranca"
+      },
+      {
+        "_meta": {
+          "position": "Director",
+          "department": "University Information Technology Office",
+          "company": "Ateneo de Davao University",
+          "emailAddress": "rpstoledosj@addu.edu.ph"
+        },
+        "title": "Ramon Prudencio S. Toledo, SJ"
+      }
+    ]
+  }
+}
