@@ -89,42 +89,6 @@
             "details": "As an instructor in the Information Systems department of the Computer Studies cluster, I handled the course: Fundamentals of Computer Software & Applications, for 40 students. Aside from the regular course, I also trained students in web and mobile app development and provided seminars to both IT and non-IT students on the latest technology trends."
           }
         ]
-      },
-      {
-        "_meta": {
-          "url": "http://www.aiesecdavao.com"
-        },
-        "title": "AIESEC in Davao",
-        "subtitle": "E. Jacinto Street, 8016 Davao City, Philippines",
-        "children": [
-          {
-            "_meta": {
-              "dateStarted": "June 2012",
-              "dateEnded": "April 2014"
-            },
-            "title": "Director for Information Systems",
-            "subtitle": "Marketing and Communications Department",
-            "details": "I research, create and maintain information systems to improve the local committee operations and processes, and also responsible for making sure that information is correct and properly disseminated."
-          },
-          {
-            "_meta": {
-              "dateStarted": "June 2012",
-              "dateEnded": "November 2012"
-            },
-            "title": "Logistics Manager and Exchange Participant Director",
-            "subtitle": "Raising Awareness for Individuals with Needs (R.A.I.N. for Kids) Project",
-            "details": "I oversee the international exchange participants' deliverables and communicate with the two partner institutions to ensure the success of the project."
-          },
-          {
-            "_meta": {
-              "dateStarted": "November 2011",
-              "dateEnded": "April 2012"
-            },
-            "title": "Team Member",
-            "subtitle": "Talent Management Department",
-            "details": "I managed the exit interviews of the graduating members."
-          }
-        ]
       }
     ]
   },
@@ -407,7 +371,7 @@
           "position": "Resource Speaker",
           "address": "Philippine Women's College of Davao, University Avenue, Juna Subdivision, 8000 Davao City, Philippines"
         },
-        "title": "PWC Campus DevCon"
+        "title": "Campus Devcon during the IT Festival of the BSIT Program of the Philippine Women's College of Davao"
       },
       {
         "_meta": {
@@ -558,7 +522,7 @@
           "url": "http://davaographicdesigners.com/"
         },
         "title": "Davao Graphic Designers Community",
-        "details": "Davao Graphic Designers Community (DGDC) is a non-proﬁt organization for showcasing the local talents of artists in Davao City.",
+        "details": "Davao Graphic Designers Community (DGDC) is a non-proﬁt organization that showcases local talents of artists in Davao City.",
         "children": [
           {
             "_meta": {
@@ -582,6 +546,43 @@
               "dateEnded": "present"
             },
             "title": "Volunteer, Mindanao Chapter"
+          }
+        ]
+      },
+      {
+        "_meta": {
+          "url": "http://www.aiesecdavao.com",
+          "address": "E. Jacinto Street, 8016 Davao City, Philippines"
+        },
+        "title": "AIESEC in Davao",
+        "details": "AIESEC develops the next generation of young leaders with impactful professional and volunteering experiences to activate their leadership potential.",
+        "children": [
+          {
+            "_meta": {
+              "dateStarted": "June 2012",
+              "dateEnded": "April 2014"
+            },
+            "title": "Director for Information Systems",
+            "subtitle": "Marketing and Communications Department",
+            "details": "I research, create and maintain information systems to improve the local committee operations and processes, and also responsible for making sure that information is correct and properly disseminated."
+          },
+          {
+            "_meta": {
+              "dateStarted": "June 2012",
+              "dateEnded": "November 2012"
+            },
+            "title": "Logistics Manager and Exchange Participant Director",
+            "subtitle": "Raising Awareness for Individuals with Needs (R.A.I.N. for Kids) Project",
+            "details": "I oversee the international exchange participants' deliverables and communicate with the two partner institutions to ensure the success of the project."
+          },
+          {
+            "_meta": {
+              "dateStarted": "November 2011",
+              "dateEnded": "April 2012"
+            },
+            "title": "Team Member",
+            "subtitle": "Talent Management Department",
+            "details": "I managed the exit interviews of the graduating members."
           }
         ]
       },
@@ -862,7 +863,7 @@
           "company": "Ingenuity Global Consulting",
           "emailAddress": "john@ingenuity.ph"
         },
-        "title": "John Rey Naranjo"
+        "title": "John Rey L. Naranjo"
       },
       {
         "_meta": {
@@ -870,7 +871,7 @@
           "company": "Ingenuity Global Consulting",
           "emailAddress": "betsy@ingenuity.ph"
         },
-        "title": "Beatriz Tulio"
+        "title": "Beatriz A. Tulio"
       },
       {
         "_meta": {

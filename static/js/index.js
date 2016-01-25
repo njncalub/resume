@@ -106,25 +106,6 @@ function registerEvents () {
     content = sectionTitle.next();
     content.slideToggle(750, function () {});
   });
-  
-  setTimeout(function () {
-    $('.progress-bar').css('width', function() {return ($(this).attr('aria-valuenow')+'0%')});
-  }, 500);
-  
-  $('ul').each(function () {
-    var max = 3;
-    if ($(this).find('li').length > max) {
-      $(this)
-        .find('li:gt('+max+')')
-        .hide()
-        .end()
-        .append(
-          $('<li class="showMore">More...</li>').click(function () {
-            $(this).siblings(':hidden').show().end().remove();
-          })
-        );
-      }
-  });
 }
 
 function registerHelpers () {
