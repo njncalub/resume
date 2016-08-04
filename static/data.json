@@ -101,8 +101,25 @@
     "children": [
       {
         "_meta": {
+          "dateStarted": "February 2016",
+          "dateEnded": "May 2016",
+          "technologies": [
+            "Django",
+            "Django REST Framework",
+            "Django Allauth",
+            "Django MPTT",
+            "Recaptcha2",
+            "PostgreSQL",
+            "Bootstrap"
+          ]
+        },
+        "title": "Allstars Infosys",
+        "details": "Information System for the Allstars AX8 group with Trinary Tree Network Diagram"
+      },
+      {
+        "_meta": {
           "dateStarted": "January 2016",
-          "dateEnded": "ongoing",
+          "dateEnded": "February 2016",
           "technologies": [
             "HTML5",
             "Bootstrap",
