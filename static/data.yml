@@ -1,0 +1,383 @@
+site:
+  title: "Nap Joseph Calub"
+  description: "Web and Mobile Developer"
+
+person:
+  lastName: "Calub"
+  middleName: "Narvaez"
+  firstName: "Nap Joseph"
+  contactInfo:
+    mainAddress: "Blk 14, Lot 12, Ph 2, Dao St, Awhag Subd, Bacaca Rd, Davao City 8000, Philippines"
+    provincialAddress: "Blk 14, Lot 12, Ph 2, Dao St, Awhag Subd, Bacaca Rd, Davao City 8000, Philippines"
+    mobileNumber: "+639228962503"
+    mobileNumberDisplay: "+63 922 896 2503"
+    emailAddress: "njncalub@gmail.com"
+    url: "http://njncalub.github.io"
+    urlDisplay: "njncalub.github.io"
+    imageURL: "./static/img/avatar.jpg"
+
+sections:
+  - title: "Career Objectives"
+    subtitle:
+    type: "list"
+    data: "text"
+    children:
+      - "To pursue a career that will involve the application of my skills in research, software development, and management."
+      - "To become proficient in different fields and programming languages to create the best solutions."
+    
+  - title: "Work Experience"
+    subtitle: "I served in various capacities e.g. trainer, instructor, coach, and web/mobile developer using mainly Django and Titanium."
+    type: "list"
+    data: "positionss"
+    children:
+      - position: "Database Administrator"
+        company: "Bell Telecommunication Philippines, Inc"
+        address: "3F 808 Bldg, Meralco Ave cor. Gen. Lim St., Brgy. San Antonio, Pasig City, 1603, Metro Manila, Philippines"
+        website: "https://ph.linkedin.com/company/belltel"
+        dateStart: "January 2017"
+        dateEnd: "July 2017"
+        details: "I manage the mission critical system for the operations of the BellTel Assets Split, Handover, and Disposal Programme. I also work with different Project Managers and Team Members in generating reports essential for Business Intelligence."
+        
+      - position: "Self-Employed IT Professional"
+        company: "Freelance IT Consultant"
+        address: "NCR - National Capital Region, Philippines"
+        website: "https://njncalub.github.io/"
+        dateStart: "January 2016"
+        dateEnd: "December 2016"
+        details: "I create web and mobile solutions depending on my customer's needs and specifications. I offer my clients a comprehensive range of services; from creating simple company websites to deploying full-fledged information systems."
+        
+      - position: "Software Developer"
+        company: "Ingenuity Global Consulting"
+        address: "3F, 1.18 Centron Building, Elpidio Quirino Ave, Davao City, 8000, Davao del Sur, Philippines"
+        website: "http://www.ingenuity.ph/"
+        dateStart: "September 2013"
+        dateEnd: "January 2016"
+        details: "As a Python developer by heart, I specialize in creating web and hybrid mobile solutions using Django and Flask, together with other frameworks like Bootstrap and AngularJS. I also create cross-platform mobile applications using Appcelerator Titanium."
+        
+      - position: "Trainer"
+        company: "Hackademy"
+        address: "3F, 1.18 Centron Building, Elpidio Quirino Ave, Davao City, 8000, Davao del Sur, Philippines"
+        website: "http://www.hackademy.ph/"
+        dateStart: "June 2015"
+        dateEnd: "July 2015"
+        details: "I facilitated the training of high school students in using Python and Django to create web applications that can be used for improving their current school systems."
+        
+      - position: "Instructor"
+        company: "Ateneo de Davao University"
+        address: "E. Jacinto Street, 8016 Davao City, Philippines"
+        website: "http://www.addu.edu.ph/"
+        dateStart: "June 2014"
+        dateEnd: "November 2014"
+        details: "I am a part-time instructor in the Information Systems department of the Computer Studies cluster, teaching Fundamentals of Computer Software & Applications. In my free time, I train students in web and mobile app development and give talks about the latest technology trends."
+        
+  - title: "Featured Projects"
+    subtitle: "I served as team leader or team member in various projects such as educational games, web/mobile applications, and open source utilities."
+    type: "list"
+    data: "projects"
+    children:
+      - name: "BT Site Handover Checklist"
+        details: "A web application that manages the Belltel Sites for Handover to respective parties."
+        dateStart: "June 2017"
+        dateEnd: "June 2017"
+        using:
+          - "Django"
+          - "PostgreSQL"
+          - "openpyxl"
+          - "editpyxl"
+      
+      - name: "Allstars Infosys"
+        details: "Information System for the Allstars AX8 group with Trinary Tree Network Diagram."
+        dateStart: "January 2016"
+        dateEnd: "February 2016"
+        using:
+          - "Django"
+          - "Django REST Framework"
+          - "Django Allauth"
+          - "Django MPTT"
+          - "Recaptcha2"
+          - "PostgreSQL"
+          - "Bootstrap"
+      
+      - name: "ResuMaker"
+        details: "Online CV/resume template used for static hosting."
+        dateStart: "January 2016"
+        dateEnd: "February 2016"
+        using:
+          - "HTML5"
+          - "Bootstrap"
+          - "Web Storage"
+          - "Handlebars.js"
+          - "YAML"
+      
+      - name: "Engage"
+        details: "An internal employee recognition platform built with Django. I was hired to redesign and upgrade the system structure to optimize it for API use."
+        dateStart: "September 2015"
+        dateEnd: "January 2016"
+        using:
+          - "Django"
+          - "Django REST Framework"
+          - "Django OAuth Toolkit"
+          - "AngularJS"
+          - "Sentry"
+          - "Jenkins"
+        
+      - name: "Hybrid Mobile Application Projects"
+        details: "I refactored and improved the multiple API backends of various apps, created hybrid iOS and Android applications using Appcelerator Titanium, used Redis and Redis Clusters for managing sets of data, and integrated various 3rd party APIs to our applications."
+        dateStart: "March 2015"
+        dateEnd: "October 2015"
+        using:
+          - "Django"
+          - "Django REST Framework"
+          - "Titanium"
+          - "Redis"
+          - "Redis Cluster"
+          - "Instagram API"
+          - "Google API"
+          - "Twitter API"
+        
+      - name: "Amber"
+        details: "I assisted on the bug fixes and addtional features for the hybrid mobile application."
+        dateStart: "July 2015"
+        dateEnd: "October 2015"
+        using:
+          - "Titanium"
+        
+      - name: "TapSiLog"
+        details: "Simple internal DTR application to log hours worked; with automation features using GAS."
+        dateStart: "June 2015"
+        dateEnd: "June 2015"
+        using:
+          - "Google Sheets"
+          - "Google Apps Script"
+        
+      - name: "Web Development Project II"
+        details: "I used NodeJS for sending real-time push notifications to connected clients."
+        dateStart: "October 2014"
+        dateEnd: "November 2014"
+        using:
+          - "Semantic UI"
+          - "NodeJS"
+          - "Django"
+      
+      - name: "Not In My Country"
+        details: "Implemented map data showing different color ranges based on existing data from the World Bank API."
+        dateStart: "October 2014"
+        dateEnd: "October 2014"
+        using:
+          - "Django"
+      
+      - name: "F45 Playoffs"
+        details: "I created the hybrid mobile application for iOS and Android and used the Parse.com API for storing data and managing authentication."
+        dateStart: "September 2014"
+        dateEnd: "January 2015"
+        using:
+          - "Facebook API"
+          - "Parse.com API"
+          - "Titanium"
+        
+      - name: "Web Development Projects I"
+        details: "I used different technologies to upgrade existing systems."
+        dateStart: "April 2014"
+        dateEnd: "September 2014"
+        using:
+          - "Django"
+          - "Flask"
+          - "ChaplinJS"
+          - "AngularJS"
+          - "PostgreSQL"
+          - "MongoDB"
+          - "Git"
+          - "Mercurial"
+      
+      - name: "Elsie Information System"
+        details: "A Local Committee Information System for AIESEC in Davao."
+        dateStart: "June 2014"
+        dateEnd: "August 2014"
+        using:
+          - "Django"
+          - "Mezzanine"
+          - "PostgreSQL"
+          - "AngularJS"
+      
+      - name: "The Hidden Cloud Academy for the Overlooked Skills"
+        details: "An Information Technology project incorporating game-based learning with existing cloud services to improve reading speed and comprehension."
+        dateStart: "November 2012"
+        dateEnd: "February 2014"
+        using:
+          - "HTML5"
+          - "JavaScript"
+          - "LimeJS"
+          - "NimbusBase"
+          - "Django"
+          - "south"
+          - "REST"
+          - "django-tastypie"
+        
+      - name: "Theodore Rosebelt WordPress Theme"
+        details: "A WordPress theme for an online flower shop."
+        dateStart: "July 2013"
+        dateEnd: "July 2013"
+        using:
+          - "WordPress"
+        
+      - name: "Possibilities"
+        details: "An online product listing with location aware search presented for the OJT course."
+        dateStart: "May 2013"
+        dateEnd: "May 2013"
+        using:
+          - "Django"
+          - "Django Haystack"
+        
+      - name: "JPLAUREL AIS"
+        details: "An Academic Information System (AIS) for the Jose P. Laurel Sr. Elementary School presented for the CS272/CS315 course."
+        dateStart: "June 2012"
+        dateEnd: "March 2013"
+        using:
+          - "Visual C#"
+          - "MySQL"
+        
+      - name: "iPhone 0.4s Simulator"
+        details: "A simple object-oriented contact/phonebook manager presented for the IT213 course."
+        dateStart: "November 2011"
+        dateEnd: "November 2011"
+        using:
+          - "Python 2.x"
+          - "TkInter"
+        
+      - name: "The King’s Number"
+        details: "A number game incorporating the set theory of discrete mathematics presented for the MATH422C course."
+        dateStart: "August 2011"
+        dateEnd: "October 2011"
+        using:
+          - "C++"
+    
+  - title: "Tech and Design Events"
+    subtitle:
+    type: "list"
+    data: "events"
+    children:
+      - name: "4th Startup Weekend Davao"
+        role: "Organizer"
+        address: "PLDT-Smart Regional Office, Ponciano St, Davao City 8000, Philippines"
+        dateStart: "November 2015"
+        dateEnd:
+        
+      - name: "DTI and PSITE (Philippine Society of Information Technology Educators) Region XI Idea Pitching Competition"
+        role: "Judge"
+        address: "Apo View Hotel, Davao City 8000, Philippines"
+        dateStart: "October 2015"
+        dateEnd:
+        
+      - name: "7th PSITS (Philippine Society of Information Technology Students) Region XII Convention"
+        role: "Resource Speaker"
+        address: "J. Catolico Sr. Avenue, General Santos City, Jose Catolico Sr. Ave, General Santos City, South Cotabato, Philippines"
+        dateStart: "September 2015"
+        dateEnd:
+        
+      - name: "AngelHack Davao 2015"
+        role: "Organizer"
+        address: "PLDT-Smart Regional Office, Ponciano St, Davao City 8000, Philippines"
+        dateStart: "August 2015"
+        dateEnd:
+        
+      - name: "GraphiCon Davao 4"
+        role: "Organizer"
+        address: "SMX Convention Center, SM City Lanang, Davao City 8000, Philippines"
+        dateStart: "July 2015"
+        dateEnd:
+        
+      - name: "Campus Devcon during the IT Festival of the BSIT Program of the Philippine Women's College of Davao"
+        role: "Resource Speaker"
+        address: "Philippine Women's College of Davao, University Avenue, Juna Subdivision, 8000 Davao City, Philippines"
+        dateStart: "October 2015"
+        dateEnd:
+        
+      - name: "1st Philippine Startup Challenge National Finals"
+        role: "Coach"
+        address: "4F, The Linden Suites, 37 San Miguel Ave, Ortigas Center, Pasig, 1600 Metro Manila, Philippines"
+        dateStart: "December 2014"
+        dateEnd:
+        
+      - name: "GraphiCon Davao 3"
+        role: "Participant"
+        address: "Cinema 4, Gaisano Mall of Davao, Davao City 8000, Philippines"
+        dateStart: "December 2014"
+        dateEnd:
+        
+      - name: "GDG DevFest 2014 (Google Developers Group – Davao)"
+        role: "Resource Speaker"
+        address: "PLDT-Smart Regional Office, Ponciano St, Davao City 8000, Philippines"
+        dateStart: "November 2014"
+        dateEnd:
+        
+      - name: "3rd Startup Weekend Davao"
+        role: "Organizer"
+        address: "F213, Finster Building, Ateneo de Davao University, Davao City 8000, Philippines"
+        dateStart: "August 2014"
+        dateEnd:
+        
+      - name: "Multimedia and Mobile Technologies Boot Camp"
+        role: "Resource Speaker"
+        address: "F613 Laboratories, Finster Building, Ateneo de Davao University, Davao City 8000, Philippines"
+        dateStart: "April 2014"
+        dateEnd:
+        
+      - name: "First Ateneo Campus DevCon"
+        role: "Organizer"
+        address: "F213, Finster Building, Ateneo de Davao University, Davao City 8000, Philippines"
+        dateStart: "January 2014"
+        dateEnd:
+        
+      - name: "'AngelHack Davao: #Hack2Help'"
+        role: "Participant"
+        address: "PLDT-Smart Regional Office, Ponciano St, Davao City 8000, Philippines"
+        dateStart: "November 2013"
+        dateEnd:
+        
+      - name: "2nd Startup Weekend Davao"
+        role: "2nd runner-up, PLYM"
+        address: "3F, 1.18 Centron Building, Elpidio Quirino Ave, Davao City, 8000, Davao del Sur, Philippines"
+        dateStart: "August 2013"
+        dateEnd:
+        
+      - name: "GraphiCon Davao 2"
+        role: "Participant"
+        address: "CAP Auditorium, Anda St, Davao City 8000, Philippines"
+        dateStart: "December 2012"
+        dateEnd:
+    
+  - title: "Educational Background"
+    subtitle:
+    type: "list"
+    data: "degrees"
+    children:
+      - title: "Bachelor of Science in Information Technology"
+        from: "Ateneo de Davao University"
+        dateStart: "June 2010"
+        dateEnd: "March 2014"
+    
+  - title: "Workshops And Seminars"
+    subtitle:
+    type:
+    data:
+    children:
+    
+  - title: "Volunteer Organizations"
+    subtitle:
+    type:
+    data:
+    children:
+    
+  - title: "Skill Set"
+    subtitle:
+    type:
+    data:
+    children:
+    
+  - title: "Professional References"
+    subtitle:
+    type:
+    data:
+    children:
+    
+  

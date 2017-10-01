@@ -25,20 +25,71 @@
     },
     "children": [
       {
-        "details": "To pursue a career that will involve the application of my skills in research, software development, and management."
+        "details": "To pursue a career that utilizes my skills in software development, management consulting, and research."
       },
       {
-        "details": "To become proficient in different fields and programming languages to create the best solutions."
+        "details": "To be a technopreneur, creating business solutions that have positive impact to society."
       }
     ]
   },
   "workExperience": {
     "_meta": {
       "sectionName": "Work Experience",
-      "sectionDetails": "I served in various capacities e.g. trainer, instructor, coach, and web/mobile developer using mainly Django and Titanium.",
+      "sectionDetails": "I am a web and mobile developer and a specialist in using Python and Django. I can also do database administration, AdWords tag and feed optimization for dynamic remarketing, emerging technology consulting, and software development training.",
       "sectionChildrenName": "Position"
     },
     "children": [
+      {
+        "_meta": {
+          "url": "http://www.cognizant.com"
+        },
+        "title": "Cognizant Technology Solutions Phils., Inc",
+        "subtitle": "8/10 Upper McKinley Bldg, Fort Bonifacio, Taguig City, Philippines",
+        "children": [
+          {
+            "_meta": {
+              "dateStarted": "August 2017",
+              "dateEnded": "present"
+            },
+            "title": "Senior Process Executive",
+            "details": "I conduct assessment of the client's website and campaigns and provide recommendations to improve their setup and guide implementation of dynamic remarketing campaigns."
+          }
+        ]
+      },
+      {
+        "_meta": {
+          "url": "http://www.ingenuity.ph"
+        },
+        "title": "Bell Telecommunication Philippines, Inc",
+        "subtitle": "3F 808 Bldg, Meralco Ave cor. Gen. Lim St., Brgy. San Antonio, Pasig City, 1603, Metro Manila, Philippines",
+        "children": [
+          {
+            "_meta": {
+              "dateStarted": "January 2017",
+              "dateEnded": "August 2017"
+            },
+            "title": "Database Administrator",
+            "details": "I managed the mission-critical system for the operations of the BellTel Assets Split, Handover, and Disposal Programme. I also worked with different Project Managers and Team Members in generating reports essential for Business Intelligence."
+          }
+        ]
+      },
+      {
+        "_meta": {
+          "url": "https://njncalub.github.io"
+        },
+        "title": "Freelance IT Consultant",
+        "subtitle": "NCR - National Capital Region, Philippines",
+        "children": [
+          {
+            "_meta": {
+              "dateStarted": "January 2016",
+              "dateEnded": "December 2016"
+            },
+            "title": "Self-Employed IT Professional",
+            "details": "I created web and mobile solutions based on my customer's needs and specifications. I offer my clients a comprehensive range of services; from creating simple company websites to deploying full-fledged information systems."
+          }
+        ]
+      },
       {
         "_meta": {
           "url": "http://www.ingenuity.ph"
@@ -52,7 +103,7 @@
               "dateEnded": "January 2016"
             },
             "title": "Software Developer",
-            "details": "I specialized in creating web and hybrid mobile solutions using Python and Django, together with frontend frameworks like Bootstrap and AngularJS. I also created cross-platform mobile applications using Appcelerator Titanium."
+            "details": "I created web and hybrid mobile solutions using Python, Django and Flask, together with other front-end frameworks like Bootstrap and AngularJS. I also created cross-platform mobile applications using Appcelerator Titanium."
           }
         ]
       },
@@ -69,7 +120,7 @@
               "dateEnded": "July 2015"
             },
             "title": "Trainer",
-            "details": "I facilitated the training of high school students in using Python and Django to create web applications that can be used for improving their current school systems."
+            "details": "I facilitated the training of high school students in using Python and Django to create web applications that can be used for improving their current school systems (e.g. attendance tracker)."
           }
         ]
       },
@@ -87,7 +138,7 @@
             },
             "title": "Instructor",
             "subtitle": "Information Systems Department",
-            "details": "As an instructor in the Information Systems department of the Computer Studies cluster, I handled the course: Fundamentals of Computer Software & Applications, for 40 students. Aside from the regular course, I also trained students in web and mobile app development and provided seminars to both IT and non-IT students on the latest technology trends."
+            "details": "I was a part-time instructor in the Information Systems department of the Computer Studies cluster, teaching Fundamentals of Computer Software & Applications. In my free time, I trained students in web and mobile app development and gave talks about the latest technology trends."
           }
         ]
       }
@@ -101,9 +152,31 @@
     "children": [
       {
         "_meta": {
+          "dateStarted": "January 2017",
+          "dateEnded": "September 2017",
+          "technologies": [
+            "Python",
+            "Django",
+            "Django Allauth",
+            "PostgreSQL",
+            "Google Maps API",
+            "django-excel",
+            "django-excel",
+            "django-import-export",
+            "editpyxl",
+            "openpyxl",
+            "Bootstrap"
+          ]
+        },
+        "title": "BT SHC App",
+        "details": "Site Handover Checklist Web Application for the BellTel Assets Split, Handover, and Disposal Programme."
+      },
+      {
+        "_meta": {
           "dateStarted": "February 2016",
           "dateEnded": "May 2016",
           "technologies": [
+            "Python",
             "Django",
             "Django REST Framework",
             "Django Allauth",
@@ -134,6 +207,7 @@
           "dateStarted": "September 2015",
           "dateEnded": "January 2016",
           "technologies": [
+            "Python",
             "Django",
             "Django REST Framework",
             "Django OAuth Toolkit",
@@ -150,6 +224,7 @@
           "dateStarted": "March 2015",
           "dateEnded": "October 2015",
           "technologies": [
+            "Python",
             "Django",
             "Django REST Framework",
             "Titanium",
@@ -168,6 +243,14 @@
           "dateStarted": "July 2015",
           "dateEnded": "October 2015",
           "technologies": [
+            "Python",
+            "Django",
+            "Django REST Framework",
+            "Parse",
+            "Redis",
+            "Instagram API",
+            "Google API",
+            "Twitter API",
             "Titanium"
           ]
         },
@@ -193,6 +276,7 @@
           "technologies": [
             "Semantic UI",
             "NodeJS",
+            "Python",
             "Django"
           ]
         },
@@ -204,7 +288,10 @@
           "dateStarted": "October 2014",
           "dateEnded": null,
           "technologies": [
-            "Django"
+            "Python",
+            "Django",
+            "openpyxl",
+            "django-import-export"
           ]
         },
         "title": "Not In My Country",
@@ -887,19 +974,19 @@
     "children": [
       {
         "_meta": {
+          "position": "Human Resource Officer",
+          "company": "Bell Telecommunication Philippines, Inc.",
+          "emailAddress": "ssfernandez@belltel.com.ph"
+        },
+        "title": "Sheryll S. Fernandez"
+      },
+      {
+        "_meta": {
           "position": "Chief Executive Officer",
           "company": "Ingenuity Global Consulting",
           "emailAddress": "john@ingenuity.ph"
         },
         "title": "John Rey L. Naranjo"
-      },
-      {
-        "_meta": {
-          "position": "Human Resource Officer",
-          "company": "Ingenuity Global Consulting",
-          "emailAddress": "betsy@ingenuity.ph"
-        },
-        "title": "Beatriz A. Tulio"
       },
       {
         "_meta": {
