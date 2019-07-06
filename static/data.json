@@ -7,9 +7,9 @@
         "firstName": "Nap Joseph"
       },
       "contactInfo": {
-        "mainAddress": "Blk 14, Lot 12, Ph 2, Dao St, Awhag Subd, Bacaca Rd, Davao City 8000, Philippines",
-        "mobileNumber": "+639228962503",
-        "mobileNumberDisplay": "+63 922 896 2503",
+        "mainAddress": "513 Yakal St, Mt View Subd, Brgy 3, Tanauan City, Batangas, Philippines 4232",
+        "mobileNumber": "+639959219896",
+        "mobileNumberDisplay": "+63 995 921 9896",
         "emailAddress": "njncalub@gmail.com",
         "url": "http://njncalub.github.io",
         "urlDisplay": "njncalub.github.io"
@@ -41,7 +41,24 @@
     "children": [
       {
         "_meta": {
-          "url": "http://www.cognizant.com"
+          "url": "https://www.concentrix.com/"
+        },
+        "title": "Concentrix",
+        "subtitle": "Tera Tower, Bridgetowne, C5,Eulogio Rodriguez Jr. Ave, Quezon City, Metro Manila",
+        "children": [
+          {
+            "_meta": {
+              "dateStarted": "May 2018",
+              "dateEnded": "present"
+            },
+            "title": "Business Apps Developer",
+            "details": "I develop business-critical applications using a mixture of Python, Go, and TypeScript."
+          }
+        ]
+      },
+      {
+        "_meta": {
+          "url": "https://www.cognizant.com"
         },
         "title": "Cognizant Technology Solutions Phils., Inc",
         "subtitle": "8/10 Upper McKinley Bldg, Fort Bonifacio, Taguig City, Philippines",
@@ -49,16 +66,16 @@
           {
             "_meta": {
               "dateStarted": "August 2017",
-              "dateEnded": "present"
+              "dateEnded": "April 2018"
             },
             "title": "Senior Process Executive",
-            "details": "I conduct assessment of the client's website and campaigns and provide recommendations to improve their setup and guide implementation of dynamic remarketing campaigns."
+            "details": "I assessed different websites and marketing campaigns and created personalized recommendations for improving our clients' setup and help them implement dynamic remarketing."
           }
         ]
       },
       {
         "_meta": {
-          "url": "http://www.ingenuity.ph"
+          "url": "http://www.belltel.ph"
         },
         "title": "Bell Telecommunication Philippines, Inc",
         "subtitle": "3F 808 Bldg, Meralco Ave cor. Gen. Lim St., Brgy. San Antonio, Pasig City, 1603, Metro Manila, Philippines",
@@ -92,7 +109,7 @@
       },
       {
         "_meta": {
-          "url": "http://www.ingenuity.ph"
+          "url": "https://ingenuity.ph"
         },
         "title": "Ingenuity Global Consulting",
         "subtitle": "3F, 1.18 Centron Building, Elpidio Quirino Ave, Davao City, 8000, Davao del Sur, Philippines",
@@ -109,7 +126,7 @@
       },
       {
         "_meta": {
-          "url": "http://www.hackademy.ph"
+          "url": "http://hackademy.ph"
         },
         "title": "Hackademy",
         "subtitle": "3F, 1.18 Centron Building, Elpidio Quirino Ave, Davao City, 8000, Davao del Sur, Philippines",
