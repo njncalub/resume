@@ -1,179 +1,211 @@
 <aside id="left-column" class="col-md-3">
-  {{#personalDetails}}
-  <div id="personalDetails">
-    <img id="avatar" class="img-responsive" src="{{_meta.imageURL}}" />
-    <div class="details">
-      <h1 id="displayName">{{title}}</h1>
-      <div id="webAddress" class="personal-details"><i class="fa fa-globe fa-fw"></i>&nbsp; <a class="ignore-link" href="{{_meta.contactInfo.url}}">{{_meta.contactInfo.urlDisplay}}</a></div>
-      <div id="emailAddress" class="personal-details"><i class="fa fa-envelope-o fa-fw"></i>&nbsp; <a class="ignore-link" href="mailto:{{_meta.contactInfo.emailAddress}}">{{_meta.contactInfo.emailAddress}}</a></div>
-      <div id="mobileNumber" class="personal-details"><i class="fa fa-phone fa-fw"></i>&nbsp; <a class="ignore-link" href="callto:{{_meta.contactInfo.mobileNumber}}">{{_meta.contactInfo.mobileNumberDisplay}}</a></div>
-    </div>
-  </div>
-  {{/personalDetails}}
-  
-  {{#skillSet}}
-  <div id="{{title}}" class="progress-bars">
-    <h2 class="section-title">{{_meta.sectionName}}</h2>
-    <div>
-      {{#children}}
-      <div class="progress">
-        <div class="progress-bar" role="progressbar" aria-valuenow="{{_meta.value}}" aria-valuemin="0" aria-valuemax="10" style="width: {{_meta.value}}0%">
-          {{title}}
+    {{#personalDetails}}
+    <div id="personalDetails">
+        <img id="avatar" class="img-responsive" src="{{ _meta.imageURL }}" />
+        <div class="details">
+            <h1 id="displayName">{{ title }}</h1>
+            <div id="webAddress" class="personal-details">
+                <i class="fa fa-globe fa-fw"></i>&nbsp;
+                <a class="ignore-link" href="{{ _meta.contactInfo.url }}">{{
+          _meta.contactInfo.urlDisplay
+        }}</a>
+            </div>
+            <div id="emailAddress" class="personal-details">
+                <i class="fa fa-envelope-o fa-fw"></i>&nbsp;
+                <a class="ignore-link"
+                    href="mailto:{{ _meta.contactInfo.emailAddress }}">{{ _meta.contactInfo.emailAddress }}</a>
+            </div>
+            <div id="mobileNumber" class="personal-details">
+                <i class="fa fa-phone fa-fw"></i>&nbsp;
+                <a class="ignore-link"
+                    href="callto:{{ _meta.contactInfo.mobileNumber }}">{{ _meta.contactInfo.mobileNumberDisplay }}</a>
+            </div>
         </div>
-      </div>
-      {{/children}}
     </div>
-  </div>
-  {{/skillSet}}
+    {{/personalDetails}}
+
+    {{#skillSet}}
+    <div id="{{ title }}" class="progress-bars">
+        <h2 class="section-title">{{ _meta.sectionName }}</h2>
+        <div>
+            {{#children}}
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="{{ _meta.value }}" aria-valuemin="0"
+                    aria-valuemax="10" style="width: {{ _meta.value }}0%">
+                    {{ title }}
+                </div>
+            </div>
+            {{/children}}
+        </div>
+    </div>
+    {{/skillSet}}
 </aside>
 
 <div id="right-column" class="col-md-9">
-  {{#careerObjectives}}
-  
-  <div id="careerObjectives" class="section">
-    <h2 class="section-title">{{_meta.sectionName}}</h2>
-    <ul>
-      {{#children}}
-      <li>
-        <div class="list-details">{{details}}</div>
-      </li>
-      {{/children}}
-    </ul>
-  </div>
-  {{/careerObjectives}}
-  
-  
-  {{#workExperience}}
-  <div id="workExperience" class="section">
-    <h2 class="section-title">{{_meta.sectionName}}</h2>
-    <span class="section-details">{{_meta.sectionDetails}}</span>
-    <ul>
-      {{#children}}
-      <li>
-        <div class="list-title"><a href="{{_meta.url}}">{{title}}</a></div>
-        <div class="list-subtitle">{{subtitle}}</div>
+    {{#careerObjectives}}
+
+    <div id="careerObjectives" class="section">
+        <h2 class="section-title">{{ _meta.sectionName }}</h2>
         <ul>
-          {{#children}}
-          <li>
-            <div class="list-title child-list-title">{{title}} {{#buildDateRange _meta '()'}}{{/buildDateRange}}</div>
-            <span class="list-subtitle">{{subtitle}}</span>
-            <div class="list-details">{{details}}</div>
-          </li>
-          {{/children}}
+            {{#children}}
+            <li>
+                <div class="list-details">{{ details }}</div>
+            </li>
+            {{/children}}
         </ul>
-      </li>
-      {{/children}}
-    </ul>
-  </div>
-  {{/workExperience}}
-  
-  
-  {{#featuredProjects}}
-  <div id="featuredProjects" class="section">
-    <h2 class="section-title">{{_meta.sectionName}}</h2>
-    <span class="section-details">{{_meta.sectionDetails}}</span>
-    <ul>
-      {{#children}}
-      <li>
-        <div class="list-title">{{title}}</div>
-        <div class="list-subtitle">{{#buildSubtitle _meta}}{{/buildSubtitle}}</div>
-        <div class="list-details">{{details}}</div>
-      </li>
-      {{/children}}
-    </ul>
-  </div>
-  {{/featuredProjects}}
-  
-  
-  {{#featuredEvents}}
-  <div id="featuredEvents" class="section">
-    <h2 class="section-title">{{_meta.sectionName}}</h2>
-    <ul>
-      {{#children}}
-      <li>
-        <div class="list-title">{{title}}</div>
-        <div class="list-subtitle">{{#buildSubtitle _meta}}{{/buildSubtitle}}</div>
-      </li>
-      {{/children}}
-    </ul>
-  </div>
-  {{/featuredEvents}}
-  
-  
-  {{#workshopsAndSeminars}}
-  <div id="workshopsAndSeminars" class="section">
-    <h2 class="section-title">{{_meta.sectionName}}</h2>
-    <ul>
-      {{#children}}
-      <li>
-        <div class="list-title">{{title}}</div>
-        <div class="list-subtitle">{{#buildDateRange _meta}}{{/buildDateRange}} | {{subtitle}}</div>
-      </li>
-      {{/children}}
-    </ul>
-  </div>
-  {{/workshopsAndSeminars}}
-  
-  
-  {{#volunteerOrganizations}}
-  <div id="volunteerOrganizations" class="section">
-    <h2 class="section-title">{{_meta.sectionName}}</h2>
-    <ul>
-      {{#children}}
-      <li>
-        <div class="list-title"><a href="{{_meta.url}}">{{title}}</a></div>
-        <div class="list-details">{{details}}</div>
+    </div>
+    {{/careerObjectives}}
+
+    {{#workExperience}}
+    <div id="workExperience" class="section">
+        <h2 class="section-title">{{ _meta.sectionName }}</h2>
+        <span class="section-details">{{ _meta.sectionDetails }}</span>
         <ul>
-          {{#children}}
-          <li>
-            <div class="list-title child-list-title">{{title}} {{#buildDateRange _meta '()'}}{{/buildDateRange}}</div>
-          </li>
-          {{/children}}
+            {{#children}}
+            <li>
+                <div class="list-title">
+                    <a href="{{ _meta.url }}">{{ title }}</a>
+                </div>
+                <div class="list-subtitle">{{ subtitle }}</div>
+                <ul>
+                    {{#children}}
+                    <li>
+                        <div class="list-title child-list-title">
+                            {{ title }} {{#buildDateRange _meta '()'}}{{/buildDateRange}}
+                        </div>
+                        <span class="list-subtitle">{{ subtitle }}</span>
+                        <div class="list-details">{{ details }}</div>
+                    </li>
+                    {{/children}}
+                </ul>
+            </li>
+            {{/children}}
         </ul>
-      </li>
-      {{/children}}
-    </ul>
-  </div>
-  {{/volunteerOrganizations}}
-  
-  
-  {{#educationalBackground}}
-  <div id="educationalBackground" class="section">
-    <h2 class="section-title">{{_meta.sectionName}}</h2>
-    <ul>
-      {{#children}}
-      <li>
-        <div class="list-title"><a href="{{_meta.url}}">{{title}}</a></div>
-        <div class="list-subtitle">{{#buildSubtitle _meta}}{{/buildSubtitle}}</div>
+    </div>
+    {{/workExperience}}
+
+    {{#featuredProjects}}
+    <div id="featuredProjects" class="section">
+        <h2 class="section-title">{{ _meta.sectionName }}</h2>
+        <span class="section-details">{{ _meta.sectionDetails }}</span>
         <ul>
-          {{#children}}
-          <li>
-            <div class="list-title child-list-title">{{title}} {{#buildDateRange _meta '()'}}{{/buildDateRange}}</div>
-          </li>
-          {{/children}}
+            {{#children}}
+            <li>
+                <div class="list-title">{{ title }}</div>
+                <div class="list-subtitle">
+                    {{#buildSubtitle _meta}}{{/buildSubtitle}}
+                </div>
+                <div class="list-details">{{ details }}</div>
+            </li>
+            {{/children}}
         </ul>
-      </li>
-      {{/children}}
-    </ul>
-  </div>
-  {{/educationalBackground}}
-  
-  
-  {{#professionalReferences}}
-  <div id="professionalReferences" class="section">
-    <h2 class="section-title">{{_meta.sectionName}}</h2>
-    
-    <ul>
-      {{#children}}
-      <li class="references col-md-6">
-        <div class="list-title">{{title}}</div>
-        <div class="list-subtitle">{{#buildPosition _meta}}{{/buildPosition}}</div>
-        <div>{{_meta.company}}</div>
-        <div><a class="ignore-link" href="mailto:{{_meta.emailAddress}}">{{_meta.emailAddress}}</a></div>
-      </li>
-      {{/children}}
-    </ul>
-  </div>
-  {{/professionalReferences}}
-  
+    </div>
+    {{/featuredProjects}}
+
+    {{#featuredEvents}}
+    <div id="featuredEvents" class="section">
+        <h2 class="section-title">{{ _meta.sectionName }}</h2>
+        <ul>
+            {{#children}}
+            <li>
+                <div class="list-title">{{ title }}</div>
+                <div class="list-subtitle">
+                    {{#buildSubtitle _meta}}{{/buildSubtitle}}
+                </div>
+            </li>
+            {{/children}}
+        </ul>
+    </div>
+    {{/featuredEvents}}
+
+    {{#workshopsAndSeminars}}
+    <div id="workshopsAndSeminars" class="section">
+        <h2 class="section-title">{{ _meta.sectionName }}</h2>
+        <ul>
+            {{#children}}
+            <li>
+                <div class="list-title">{{ title }}</div>
+                <div class="list-subtitle">
+                    {{#buildDateRange _meta}}{{/buildDateRange}} | {{ subtitle }}
+                </div>
+            </li>
+            {{/children}}
+        </ul>
+    </div>
+    {{/workshopsAndSeminars}}
+
+    {{#volunteerOrganizations}}
+    <div id="volunteerOrganizations" class="section">
+        <h2 class="section-title">{{ _meta.sectionName }}</h2>
+        <ul>
+            {{#children}}
+            <li>
+                <div class="list-title">
+                    <a href="{{ _meta.url }}">{{ title }}</a>
+                </div>
+                <div class="list-details">{{ details }}</div>
+                <ul>
+                    {{#children}}
+                    <li>
+                        <div class="list-title child-list-title">
+                            {{ title }} {{#buildDateRange _meta '()'}}{{/buildDateRange}}
+                        </div>
+                    </li>
+                    {{/children}}
+                </ul>
+            </li>
+            {{/children}}
+        </ul>
+    </div>
+    {{/volunteerOrganizations}}
+
+    {{#educationalBackground}}
+    <div id="educationalBackground" class="section">
+        <h2 class="section-title">{{ _meta.sectionName }}</h2>
+        <ul>
+            {{#children}}
+            <li>
+                <div class="list-title">
+                    <a href="{{ _meta.url }}">{{ title }}</a>
+                </div>
+                <div class="list-subtitle">
+                    {{#buildSubtitle _meta}}{{/buildSubtitle}}
+                </div>
+                <ul>
+                    {{#children}}
+                    <li>
+                        <div class="list-title child-list-title">
+                            {{ title }} {{#buildDateRange _meta '()'}}{{/buildDateRange}}
+                        </div>
+                    </li>
+                    {{/children}}
+                </ul>
+            </li>
+            {{/children}}
+        </ul>
+    </div>
+    {{/educationalBackground}}
+
+    {{#professionalReferences}}
+    <div id="professionalReferences" class="section">
+        <h2 class="section-title">{{ _meta.sectionName }}</h2>
+
+        <ul>
+            {{#children}}
+            <li class="references col-md-6">
+                <div class="list-title">{{ title }}</div>
+                <div class="list-subtitle">
+                    {{#buildPosition _meta}}{{/buildPosition}}
+                </div>
+                <div>{{ _meta.company }}</div>
+                <div>
+                    <a class="ignore-link" href="mailto:{{ _meta.emailAddress }}">{{
+            _meta.emailAddress
+          }}</a>
+                </div>
+            </li>
+            {{/children}}
+        </ul>
+    </div>
+    {{/professionalReferences}}
 </div>
