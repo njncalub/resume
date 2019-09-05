@@ -1,14 +1,7 @@
-## ResuMaker
+## Online CV
 
-Online CV/resume template used for static hosting.
-
-## Contributors
-
-**Nap Joseph Calub**
-
-* <https://twitter.com/njncalub>
-* <https://github.com/njncalub>
+Online CV for [Nap Joseph Calub](https://github.com/njncalub).
 
 ## License
 
-Code released under the MIT license.
+MIT licensed. Please see the bundled [LICENSE](./LICENSE.md) file for more details.
