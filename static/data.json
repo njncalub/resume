@@ -17,25 +17,12 @@
       "imageURL": "./static/img/avatar.jpg"
     },
     "title": "Nap Joseph Calub",
-    "description": "Web and Mobile Developer"
-  },
-  "careerObjectives": {
-    "_meta": {
-      "sectionName": "Career Objectives"
-    },
-    "children": [
-      {
-        "details": "To pursue a career that utilizes my skills in software development, management consulting, and research."
-      },
-      {
-        "details": "To be a technopreneur, creating business solutions that have positive impact to society."
-      }
-    ]
+    "description": "Software Engineer using Python/Go/TypeScript"
   },
   "workExperience": {
     "_meta": {
       "sectionName": "Work Experience",
-      "sectionDetails": "I am a web and mobile developer and a specialist in using Python and Django. I can also do database administration, AdWords tag and feed optimization for dynamic remarketing, emerging technology consulting, and software development training.",
+      "sectionDetails": "I am a software engineer who enjoys building business applications using Python, Go, and TypeScript. Previously, I have also worked as a mobile app developer, database administrator, Google Ads and Google Analytics analyst, and software development trainer.",
       "sectionChildrenName": "Position"
     },
     "children": [
@@ -52,7 +39,7 @@
               "dateEnded": "present"
             },
             "title": "Business Apps Developer",
-            "details": "I develop business-critical applications using a mixture of Python, Go, and TypeScript."
+            "details": "I create and maintain business-critical applications using a mixture of Python, Go, and TypeScript (Angular) for our client's Network Operations Center. I also analyze terabytes of data from Cloud SQL and BigQuery, and create interactive dashboards using Data Studio."
           }
         ]
       },
@@ -69,7 +56,7 @@
               "dateEnded": "April 2018"
             },
             "title": "Senior Process Executive",
-            "details": "I assessed different websites and marketing campaigns and created personalized recommendations for improving our clients' setup and help them implement dynamic remarketing."
+            "details": "I help big companies across APAC to improve their current Google Ads (previously Google AdWords) and Google Analytics setup, and help them implement Dynamic Remarketing on their website using Google Tag Manager."
           }
         ]
       },
@@ -86,7 +73,7 @@
               "dateEnded": "August 2017"
             },
             "title": "Database Administrator",
-            "details": "I managed the mission-critical system for the operations of the BellTel Assets Split, Handover, and Disposal Programme. I also worked with different Project Managers and Team Members in generating reports essential for Business Intelligence."
+            "details": "I created and managed the system for splitting, handing over, and disposal of our telecommunications network assets to PLDT and Globe Telecom. Additionally, I have also worked with external project managers by generating the daily reports and presentations to check the overall status of the operation."
           }
         ]
       },
@@ -103,7 +90,7 @@
               "dateEnded": "December 2016"
             },
             "title": "Self-Employed IT Professional",
-            "details": "I created web and mobile solutions based on my customer's needs and specifications. I offer my clients a comprehensive range of services; from creating simple company websites to deploying full-fledged information systems."
+            "details": "I created web and mobile solutions based on my customer's needs and specifications. I offered my clients a comprehensive range of services; from creating simple company websites to deploying full-fledged information systems."
           }
         ]
       },
@@ -120,7 +107,7 @@
               "dateEnded": "January 2016"
             },
             "title": "Software Developer",
-            "details": "I created web and hybrid mobile solutions using Python, Django and Flask, together with other front-end frameworks like Bootstrap and AngularJS. I also created cross-platform mobile applications using Appcelerator Titanium."
+            "details": "I created web applications using Python (Django and Flask) and front-end frameworks like AngularJS, Chaplin.js, and Bootstrap. I also created and deployed cross-platform mobile applications using Appcelerator Titanium, which served thousands of daily users."
           }
         ]
       },
@@ -137,7 +124,7 @@
               "dateEnded": "July 2015"
             },
             "title": "Trainer",
-            "details": "I facilitated the training of high school students in using Python and Django to create web applications that can be used for improving their current school systems (e.g. attendance tracker)."
+            "details": "I facilitated the training of high school students to create web applications using Python/Django, to improve their school's current information systems."
           }
         ]
       },
@@ -167,6 +154,27 @@
       "sectionDetails": "I served as team leader or team member in various projects such as educational games, web/mobile applications, and open source utilities."
     },
     "children": [
+      {
+        "_meta": {
+          "dateStarted": "May 2018",
+          "dateEnded": "present",
+          "technologies": [
+            "Go",
+            "TypeScript",
+            "Angular",
+            "Google Cloud Platform",
+            "Cloud SQL",
+            "BigQuery",
+            "Data Studio",
+            "Bazel",
+            "Apps Script",
+            "Protocol Buffers",
+            "Python"
+          ]
+        },
+        "title": "Various Projects",
+        "details": "Developed different dashboards and utility tools to make sense of our client's enterprise network."
+      },
       {
         "_meta": {
           "dateStarted": "January 2017",
@@ -205,19 +213,6 @@
         },
         "title": "Allstars Infosys",
         "details": "Information System for the Allstars AX8 group with Trinary Tree Network Diagram."
-      },
-      {
-        "_meta": {
-          "dateStarted": "January 2016",
-          "dateEnded": "February 2016",
-          "technologies": [
-            "HTML5",
-            "Bootstrap",
-            "Handlebars.js"
-          ]
-        },
-        "title": "ResuMaker",
-        "details": "Online CV/resume template used for static hosting."
       },
       {
         "_meta": {
@@ -278,10 +273,7 @@
         "_meta": {
           "dateStarted": "June 2015",
           "dateEnded": null,
-          "technologies": [
-            "Google Sheets",
-            "Google Apps Script"
-          ]
+          "technologies": ["Google Sheets", "Google Apps Script"]
         },
         "title": "TapSiLog",
         "details": "Simple internal DTR application to log hours worked; with automation features using GAS."
@@ -290,12 +282,7 @@
         "_meta": {
           "dateStarted": "October 2014",
           "dateEnded": "November 2014",
-          "technologies": [
-            "Semantic UI",
-            "NodeJS",
-            "Python",
-            "Django"
-          ]
+          "technologies": ["Semantic UI", "NodeJS", "Python", "Django"]
         },
         "title": "Web Development Project II",
         "details": "I used NodeJS for sending real-time push notifications to connected clients."
@@ -318,11 +305,7 @@
         "_meta": {
           "dateStarted": "September 2014",
           "dateEnded": "January 2015",
-          "technologies": [
-            "Facebook API",
-            "Parse.com API",
-            "Titanium"
-          ]
+          "technologies": ["Facebook API", "Parse.com API", "Titanium"]
         },
         "title": "F45 Playoffs",
         "details": "I created the hybrid mobile application for iOS and Android and used the Parse.com API for storing data and managing authentication."
@@ -349,12 +332,7 @@
         "_meta": {
           "dateStarted": "June 2014",
           "dateEnded": "August 2014",
-          "technologies": [
-            "Django",
-            "Mezzanine",
-            "PostgreSQL",
-            "AngularJS"
-          ]
+          "technologies": ["Django", "Mezzanine", "PostgreSQL", "AngularJS"]
         },
         "title": "Elsie Information System",
         "details": "A Local Committee Information System for AIESEC in Davao."
@@ -381,9 +359,7 @@
         "_meta": {
           "dateStarted": "July 2013",
           "dateEnded": null,
-          "technologies": [
-            "WordPress"
-          ]
+          "technologies": ["WordPress"]
         },
         "title": "Theodore Rosebelt WordPress Theme",
         "details": "A WordPress theme for an online flower shop."
@@ -392,10 +368,7 @@
         "_meta": {
           "dateStarted": "May 2013",
           "dateEnded": null,
-          "technologies": [
-            "Django",
-            "Django Haystack"
-          ]
+          "technologies": ["Django", "Django Haystack"]
         },
         "title": "Possibilities",
         "details": "An online product listing with location aware search presented for the OJT course."
@@ -404,10 +377,7 @@
         "_meta": {
           "dateStarted": "June 2012",
           "dateEnded": "March 2013",
-          "technologies": [
-            "Visual C#",
-            "MySQL"
-          ]
+          "technologies": ["Visual C#", "MySQL"]
         },
         "title": "JPLAUREL AIS",
         "details": "An Academic Information System (AIS) for the Jose P. Laurel Sr. Elementary School presented for the CS272/CS315 course."
@@ -416,10 +386,7 @@
         "_meta": {
           "dateStarted": "November 2011",
           "dateEnded": "November 2011",
-          "technologies": [
-            "Python 2.x",
-            "TkInter"
-          ]
+          "technologies": ["Python 2.x", "TkInter"]
         },
         "title": "iPhone 0.4s Simulator",
         "details": "A simple object-oriented contact/phonebook manager presented for the IT213 course."
@@ -428,9 +395,7 @@
         "_meta": {
           "dateStarted": "August 2011",
           "dateEnded": "October 2011",
-          "technologies": [
-            "C++"
-          ]
+          "technologies": ["C++"]
         },
         "title": "The King’s Number",
         "details": "A number game incorporating the set theory of discrete mathematics presented for the MATH422C course."
@@ -442,6 +407,33 @@
       "sectionName": "Tech and Design Events"
     },
     "children": [
+      {
+        "_meta": {
+          "dateStarted": "August 2019",
+          "dateEnded": null,
+          "position": "Participant",
+          "address": "SMX Convention Center Aura, SM Aura, BGC, Taguig City, Philippines"
+        },
+        "title": "UX+"
+      },
+      {
+        "_meta": {
+          "dateStarted": "February 2019",
+          "dateEnded": null,
+          "position": "Participant",
+          "address": "SMX Convention Center, Mall of Asia Complex, Pasay, Philippines"
+        },
+        "title": "Graphika Manila 2019"
+      },
+      {
+        "_meta": {
+          "dateStarted": "February 2018",
+          "dateEnded": null,
+          "position": "Participant",
+          "address": "iACADEMY, H.V. Dela Costa, Makati, Metro Manila, Philippines"
+        },
+        "title": "PyCon Philippines 2018"
+      },
       {
         "_meta": {
           "dateStarted": "November 2015",
@@ -611,6 +603,15 @@
     "children": [
       {
         "_meta": {
+          "dateStarted": "October 2017",
+          "dateEnded": null
+        },
+        "title": "Cryptors Cybersecurity: Web Hacking Seminar",
+        "subtitle": "Cryptors Cybersecurity, Rakso One, 6F, Ricogen Bldg, 112 Aguirre St, Legaspi Village, Makati City, Philippines",
+        "details": "Participant"
+      },
+      {
+        "_meta": {
           "dateStarted": "April 2014",
           "dateEnded": null
         },
@@ -659,7 +660,7 @@
           {
             "_meta": {
               "dateStarted": "June 2015",
-              "dateEnded": "present"
+              "dateEnded": "January 2016"
             },
             "title": "Core Group Member"
           }
@@ -675,7 +676,7 @@
           {
             "_meta": {
               "dateStarted": "February 2014",
-              "dateEnded": "present"
+              "dateEnded": "January 2016"
             },
             "title": "Volunteer, Mindanao Chapter"
           }
@@ -696,7 +697,7 @@
             },
             "title": "Director for Information Systems",
             "subtitle": "Marketing and Communications Department",
-            "details": "I research, create and maintain information systems to improve the local committee operations and processes, and also responsible for making sure that information is correct and properly disseminated."
+            "details": "I implemented systems to improve the daily operations and processes of our organization. I was also the one responsible for making sure that information is correctly and properly disseminated to our members and partners."
           },
           {
             "_meta": {
@@ -714,7 +715,7 @@
             },
             "title": "Team Member",
             "subtitle": "Talent Management Department",
-            "details": "I managed the exit interviews of the graduating members."
+            "details": "I helped in the recruitment of new members and managed the exit interviews of our graduating members."
           }
         ]
       },
@@ -775,214 +776,220 @@
     ]
   },
   "skillSet": [
-      {
-        "_meta": {
-          "sectionName": "Tech Stack"
-        },
-        "title": "techStack",
-        "children": [
-          {
-            "_meta": {
-              "value": 8
-            },
-            "title": "Python"
-          },
-          {
-            "_meta": {
-              "value": 9
-            },
-            "title": "Django"
-          },
-          {
-            "_meta": {
-              "value": 8
-            },
-            "title": "HTML5"
-          },
-          {
-            "_meta": {
-              "value": 8
-            },
-            "title": "CSS3"
-          },
-          {
-            "_meta": {
-              "value": 7
-            },
-            "title": "JavaScript"
-          },
-          {
-            "_meta": {
-              "value": 8
-            },
-            "title": "jQuery"
-          },
-          {
-            "_meta": {
-              "value": 8
-            },
-            "title": "Titanium"
-          },
-          {
-            "_meta": {
-              "value": 8
-            },
-            "title": "XML"
-          },
-          {
-            "_meta": {
-              "value": 6
-            },
-            "title": "Java"
-          },
-          {
-            "_meta": {
-              "value": 6
-            },
-            "title": "C++"
-          },
-          {
-            "_meta": {
-              "value": 5
-            },
-            "title": "PHP"
-          },
-          {
-            "_meta": {
-              "value": 6
-            },
-            "title": "WordPress"
-          },
-          {
-            "_meta": {
-              "value": 4
-            },
-            "title": "Flask"
-          },
-          {
-            "_meta": {
-              "value": 7
-            },
-            "title": "Visual C#"
-          }
-        ]
+    {
+      "_meta": {
+        "sectionName": "Programming Languages"
       },
-      {
-        "_meta": {
-          "sectionName": "SCMs"
-        },
-        "title": "scms",
-        "children": [
-          {
-            "_meta": {
-              "value": 8
-            },
-            "title": "Git"
+      "title": "programmingLanguages",
+      "children": [
+        {
+          "_meta": {
+            "value": 9
           },
-          {
-            "_meta": {
-              "value": 7
-            },
-            "title": "Mercurial"
-          }
-        ]
+          "title": "Go"
+        },
+        {
+          "_meta": {
+            "value": 8
+          },
+          "title": "Python"
+        },
+        {
+          "_meta": {
+            "value": 8
+          },
+          "title": "TypeScript"
+        },
+        {
+          "_meta": {
+            "value": 7
+          },
+          "title": "JavaScript"
+        },
+        {
+          "_meta": {
+            "value": 6
+          },
+          "title": "Apps Script"
+        },
+        {
+          "_meta": {
+            "value": 5
+          },
+          "title": "Java"
+        },
+        {
+          "_meta": {
+            "value": 5
+          },
+          "title": "PHP"
+        },
+        {
+          "_meta": {
+            "value": 4
+          },
+          "title": "Visual C#"
+        },
+        {
+          "_meta": {
+            "value": 3
+          },
+          "title": "C++"
+        }
+      ]
+    },
+    {
+      "_meta": {
+        "sectionName": "Other Technologies and Frameworks"
       },
-      {
-        "_meta": {
-          "sectionName": "APIs"
+      "title": "otherTechs",
+      "children": [
+        {
+          "_meta": {
+            "value": 8
+          },
+          "title": "Django"
         },
-        "title": "apis",
-        "children": [
-          {
-            "_meta": {
-              "value": 7
-            },
-            "title": "Facebook API"
+        {
+          "_meta": {
+            "value": 8
           },
-          {
-            "_meta": {
-              "value": 6
-            },
-            "title": "Google API"
+          "title": "Angular"
+        },
+        {
+          "_meta": {
+            "value": 8
           },
-          {
-            "_meta": {
-              "value": 7
-            },
-            "title": "Instagram API"
+          "title": "Sass"
+        },
+        {
+          "_meta": {
+            "value": 7
           },
-          {
-            "_meta": {
-              "value": 7
-            },
-            "title": "Twitter API"
+          "title": "Protocol Buffers"
+        },
+        {
+          "_meta": {
+            "value": 5
           },
-          {
-            "_meta": {
-              "value": 6
-            },
-            "title": "Parse.com API"
-          }
-        ]
+          "title": "WordPress"
+        },
+        {
+          "_meta": {
+            "value": 5
+          },
+          "title": "Flask"
+        },
+        {
+          "_meta": {
+            "value": 3
+          },
+          "title": "Flutter"
+        }
+      ]
+    },
+    {
+      "_meta": {
+        "sectionName": "SCMs"
       },
-      {
-        "_meta": {
-          "sectionName": "Databases"
+      "title": "scms",
+      "children": [
+        {
+          "_meta": {
+            "value": 8
+          },
+          "title": "Git"
         },
-        "title": "databases",
-        "children": [
-          {
-            "_meta": {
-              "value": 8
-            },
-            "title": "PostgreSQL"
+        {
+          "_meta": {
+            "value": 7
           },
-          {
-            "_meta": {
-              "value": 7
-            },
-            "title": "MySQL"
-          },
-          {
-            "_meta": {
-              "value": 6
-            },
-            "title": "MongoDB"
-          }
-        ]
+          "title": "Mercurial"
+        }
+      ]
+    },
+    {
+      "_meta": {
+        "sectionName": "Databases"
       },
-      {
-        "_meta": {
-          "sectionName": "Applications"
+      "title": "databases",
+      "children": [
+        {
+          "_meta": {
+            "value": 8
+          },
+          "title": "PostgreSQL"
         },
-        "title": "applications",
-        "children": [
-          {
-            "_meta": {
-              "value": 9
-            },
-            "title": "Microsoft Office Suite"
+        {
+          "_meta": {
+            "value": 7
           },
-          {
-            "_meta": {
-              "value": 8
-            },
-            "title": "Adobe Photoshop"
+          "title": "Cloud SQL"
+        },
+        {
+          "_meta": {
+            "value": 7
           },
-          {
-            "_meta": {
-              "value": 7
-            },
-            "title": "Adobe Illustrator"
+          "title": "MySQL"
+        },
+        {
+          "_meta": {
+            "value": 6
           },
-          {
-            "_meta": {
-              "value": 7
-            },
-            "title": "Adobe Premiere"
-          }
-        ]
-      }
+          "title": "MongoDB"
+        },
+        {
+          "_meta": {
+            "value": 4
+          },
+          "title": "BigQuery"
+        }
+      ]
+    },
+    {
+      "_meta": {
+        "sectionName": "Applications"
+      },
+      "title": "applications",
+      "children": [
+        {
+          "_meta": {
+            "value": 9
+          },
+          "title": "Microsoft Office Suite"
+        },
+        {
+          "_meta": {
+            "value": 8
+          },
+          "title": "Adobe Photoshop"
+        },
+        {
+          "_meta": {
+            "value": 7
+          },
+          "title": "Adobe Illustrator"
+        },
+        {
+          "_meta": {
+            "value": 7
+          },
+          "title": "Adobe Premiere"
+        },
+        {
+          "_meta": {
+            "value": 5
+          },
+          "title": "Data Studio"
+        },
+        {
+          "_meta": {
+            "value": 5
+          },
+          "title": "Sketch"
+        }
+      ]
+    }
   ],
   "professionalReferences": {
     "_meta": {
