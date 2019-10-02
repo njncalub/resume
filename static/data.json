@@ -8,8 +8,7 @@
       },
       "contactInfo": {
         "mainAddress": "513 Yakal St, Mt View Subd, Brgy 3, Tanauan City, Batangas, Philippines 4232",
-        "mobileNumber": "+639959219896",
-        "mobileNumberDisplay": "+63 995 921 9896",
+        "mobileNumber": "+63 995 921 9896",
         "emailAddress": "njncalub@gmail.com",
         "url": "http://njncalub.github.io",
         "urlDisplay": "njncalub.github.io"
@@ -998,37 +997,76 @@
     "children": [
       {
         "_meta": {
-          "position": "Human Resource Officer",
-          "company": "Bell Telecommunication Philippines, Inc.",
-          "emailAddress": "ssfernandez@belltel.com.ph"
+          "position": "Software Engineer",
+          "company": "Willis Towers Watsons",
+          "emailAddress": "daryl.ronquillo@willistowerswatson.com",
+          "mobileNumber": "+63 926 658 4446"
         },
-        "title": "Sheryll S. Fernandez"
+        "title": "Daryl Ronquillo"
       },
       {
         "_meta": {
-          "position": "Chief Executive Officer",
+          "position": "Ad Operations Officer",
+          "company": "ABS-CBN Corporation",
+          "emailAddress": "ymichelle1992@hotmail.com",
+          "mobileNumber": "+63 939 921 5278"
+        },
+        "title": "Michelle Ybañez"
+      },
+      {
+        "_meta": {
+          "position": "Senior Python Engineer",
+          "company": "Yondu, Inc",
+          "emailAddress": "gianina.juanga@gmail.com",
+          "mobileNumber": "+63 917 510 0057"
+        },
+        "title": "Gianina Juanga"
+      },
+      {
+        "_meta": {
+          "position": "Software Engineer",
+          "company": "XTREME-D Inc",
+          "emailAddress": "raymarc.marcellones@gmail.com",
+          "mobileNumber": "+81 704 010 8869"
+        },
+        "title": "Ray Marc Marcellones"
+      },
+      {
+        "_meta": {
+          "position": "Nihongo-skilled Project Coordinator/Bridge SE",
+          "company": "WeServ Systems International Inc.",
+          "emailAddress": "tjasalavia@gmail.com",
+          "mobileNumber": "+63 967 288 2935"
+        },
+        "title": "Tomjan Salavia"
+      },
+      {
+        "_meta": {
+          "position": "Head of Research and Training",
           "company": "Ingenuity Global Consulting",
-          "emailAddress": "john@ingenuity.ph"
+          "emailAddress": "jefford@ingenuity.ph",
+          "mobileNumber": "+63 927 794 0377"
         },
-        "title": "John Rey L. Naranjo"
+        "title": "Jefford Ray Mamacus"
       },
       {
         "_meta": {
-          "position": "Faculty",
-          "department": "Computer Studies Cluster",
-          "company": "Ateneo de Davao University",
-          "emailAddress": "dgmcimafranca@addu.edu.ph"
+          "position": "Senior Manager",
+          "department": "Business Transformation Office",
+          "company": "Smart Communications, Inc.",
+          "emailAddress": "nnsiman@smart.com.ph",
+          "mobileNumber": "+63 939 918 9201"
         },
-        "title": "Dominique Gerald M. Cimafranca"
+        "title": "Nerissa Narvaez-Siman"
       },
       {
         "_meta": {
-          "position": "Director",
-          "department": "University Information Technology Office",
+          "position": "Academic Vice President",
           "company": "Ateneo de Davao University",
-          "emailAddress": "rpstoledosj@addu.edu.ph"
+          "emailAddress": "mpbanawan@addu.edu.ph",
+          "mobileNumber": "+63 908 524 4402"
         },
-        "title": "Ramon Prudencio S. Toledo, SJ"
+        "title": "Michelle P. Banawan, Ph.D."
       }
     ]
   }
