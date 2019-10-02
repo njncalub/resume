@@ -24,6 +24,10 @@
         .join(sep);
   }
 
+  function hbsBuildCallToMobileNumber(numberWithSpaces) {
+    return numberWithSpaces.replace(/\s/g, "");
+  }
+
   function hbsBuildDateRange(_meta, enc) {
     var s = "";
 
@@ -116,6 +120,7 @@
     Handlebars.registerHelper("buildDateRange", hbsBuildDateRange);
     Handlebars.registerHelper("buildPosition", hbsBuildPosition);
     Handlebars.registerHelper("buildSubtitle", hbsBuildSubtitle);
+    Handlebars.registerHelper("buildCallToMobileNumber", hbsBuildCallToMobileNumber);
   }
 
   function includeThemeStyles() {
