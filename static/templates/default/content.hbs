@@ -95,7 +95,13 @@
           <div class="list-subtitle">
             {{#buildSubtitle _meta}}{{/buildSubtitle}}
           </div>
-          <div class="list-details">{{ details }}</div>
+          <div class="list-details">
+            <ul>
+              {{#each details}}
+                <li>{{ this }}</li>
+              {{/each}}
+            </ul>
+          </div>
         </li>
       {{/children}}
     </ul>
@@ -143,7 +149,7 @@
         <div class="list-title">
           <a href="{{ _meta.url }}">{{ title }}</a>
         </div>
-        <div class="list-details">{{ details }}</div>
+        {{!-- <div class="list-details">{{ details }}</div> --}}
         <ul>
         {{#children}}
           <li>

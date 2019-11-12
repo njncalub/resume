@@ -21,7 +21,7 @@
   "workExperience": {
     "_meta": {
       "sectionName": "Work Experience",
-      "sectionDetails": "I am a software engineer who enjoys building business applications using Python, Go, and TypeScript. Previously, I have also worked as a mobile app developer, database administrator, Google Ads and Google Analytics analyst, and software development trainer.",
+      "sectionDetails": "I am a software engineer who enjoys building business applications using Go, Python, and TypeScript. Previously, I have also worked as a mobile app developer, database administrator, Google Ads and Google Analytics analyst, and software development trainer.",
       "sectionChildrenName": "Position"
     },
     "children": [
@@ -73,23 +73,6 @@
             },
             "title": "Database Administrator",
             "details": "I created and managed the system for splitting, handing over, and disposal of our telecommunications network assets to PLDT and Globe Telecom. Additionally, I have also worked with external project managers by generating the daily reports and presentations to check the overall status of the operation."
-          }
-        ]
-      },
-      {
-        "_meta": {
-          "url": "https://njncalub.github.io"
-        },
-        "title": "Freelance IT Consultant",
-        "subtitle": "NCR - National Capital Region, Philippines",
-        "children": [
-          {
-            "_meta": {
-              "dateStarted": "January 2016",
-              "dateEnded": "December 2016"
-            },
-            "title": "Self-Employed IT Professional",
-            "details": "I created web and mobile solutions based on my customer's needs and specifications. I offered my clients a comprehensive range of services; from creating simple company websites to deploying full-fledged information systems."
           }
         ]
       },
@@ -150,9 +133,30 @@
   "featuredProjects": {
     "_meta": {
       "sectionName": "Projects",
-      "sectionDetails": "I served as team leader or team member in various projects such as educational games, web/mobile applications, and open source utilities."
+      "sectionDetails": "I served as team leader or team member in various projects such as educational games, web/mobile applications, and open source utilities. Below are some of my featured projects."
     },
     "children": [
+      {
+        "_meta": {
+          "dateStarted": "July 2019",
+          "dateEnded": "present",
+          "technologies": [
+            "Go",
+            "Google Cloud Platform",
+            "Cloud SQL",
+            "BigQuery",
+            "Data Studio",
+            "Apps Script",
+            "Bazel",
+            "Protocol Buffers"
+          ]
+        },
+        "title": "Network Tools and Dashboards",
+        "details": [
+          "I developed tools using Go to send email alerts for non-compliant network devices.",
+          "I designed dashboards using Data Studio to visualize all the devices of the network taken from BigQuery, Cloud SQL, and sometimes Google Sheets."
+        ]
+      },
       {
         "_meta": {
           "dateStarted": "May 2018",
@@ -164,15 +168,17 @@
             "Google Cloud Platform",
             "Cloud SQL",
             "BigQuery",
-            "Data Studio",
+            "Google Chart API",
             "Bazel",
-            "Apps Script",
-            "Protocol Buffers",
             "Python"
           ]
         },
-        "title": "Various Projects",
-        "details": "Developed different dashboards and utility tools to make sense of our client's enterprise network."
+        "title": "Lifecycle Management Dashboard",
+        "details": [
+          "I maintained a legacy dashboard for visualizing and managing the lifecycle of devices in our client's enterprise network.",
+          "I refactored the code to use the latest Angular version and added unit tests to both the Go backend and TypeScript frontend.",
+          "I upgraded the old task runners using Python to use Go App Engine Cron and Cloud Tasks."
+        ]
       },
       {
         "_meta": {
@@ -192,8 +198,11 @@
             "Bootstrap"
           ]
         },
-        "title": "BT SHC App",
-        "details": "Site Handover Checklist Web Application for the BellTel Assets Split, Handover, and Disposal Programme."
+        "title": "Assets Handover Management Dashboard",
+        "details": [
+          "I developed a web application for handling the splitting, handing over, and disposal program of telecommunication assets to external shareholders.",
+          "I created a utility tool to import, clean, and process huge XLSX files to manage the list of assets information."
+        ]
       },
       {
         "_meta": {
@@ -211,7 +220,10 @@
           ]
         },
         "title": "Allstars Infosys",
-        "details": "Information System for the Allstars AX8 group with Trinary Tree Network Diagram."
+        "details": [
+          "I developed and deployed a members information system for a local networking group.",
+          "I used a trinary tree network diagram to visualize each member's downlines to help plan recruitment strategies."
+        ]
       },
       {
         "_meta": {
@@ -227,8 +239,11 @@
             "Jenkins"
           ]
         },
-        "title": "Engage",
-        "details": "An internal employee recognition platform built with Django. I was hired to redesign and upgrade the system structure to optimize it for API use."
+        "title": "Engage - Employee Recognition Platform",
+        "details": [
+          "I managed a team to refactor and redesign the internal version of the web application for commercial use.",
+          "I worked directly with the project manager and product owners regarding the project requirements and specifications."
+        ]
       },
       {
         "_meta": {
@@ -246,8 +261,11 @@
             "Twitter API"
           ]
         },
-        "title": "Hybrid Mobile Application Projects",
-        "details": "I refactored and improved the multiple API backends of various apps, created hybrid iOS and Android applications using Appcelerator Titanium, used Redis and Redis Clusters for managing sets of data, and integrated various 3rd party APIs to our applications."
+        "title": "Hybrid Mobile Applications",
+        "details": [
+          "I worked with a team to create iOS and Android applications to buy Twitter, Instagram, and YouTube followers.",
+          "I refactored the REST API servers, integrated various social APIs to the mobile apps, and used Redis/Redis Clusters for managing the followers set."
+        ]
       },
       {
         "_meta": {
@@ -266,39 +284,37 @@
           ]
         },
         "title": "Amber",
-        "details": "I assisted on the bug fixes and addtional features for the hybrid mobile application."
-      },
-      {
-        "_meta": {
-          "dateStarted": "June 2015",
-          "dateEnded": null,
-          "technologies": ["Google Sheets", "Google Apps Script"]
-        },
-        "title": "TapSiLog",
-        "details": "Simple internal DTR application to log hours worked; with automation features using GAS."
+        "details": [
+          "I helped fix bugs on the Django backend and created new views for a mobile RSS feed reader."
+        ]
       },
       {
         "_meta": {
           "dateStarted": "October 2014",
           "dateEnded": "November 2014",
-          "technologies": ["Semantic UI", "NodeJS", "Python", "Django"]
-        },
-        "title": "Web Development Project II",
-        "details": "I used NodeJS for sending real-time push notifications to connected clients."
-      },
-      {
-        "_meta": {
-          "dateStarted": "October 2014",
-          "dateEnded": null,
           "technologies": [
+            "Semantic UI",
+            "NodeJS",
             "Python",
             "Django",
             "openpyxl",
             "django-import-export"
           ]
         },
+        "title": "Various Web Development Projects II",
+        "details": [
+          "I used NodeJS for sending real-time push notifications to connected clients.",
+          "I implemented an importer automatically fetch and clean the map data from the World Bank API to show different color ranges to an interactive map."
+        ]
+      },
+      {
+        "_meta": {
+          "dateStarted": "October 2014",
+          "dateEnded": null,
+          "technologies": []
+        },
         "title": "Not In My Country",
-        "details": "Implemented map data showing different color ranges based on existing data from the World Bank API."
+        "details": []
       },
       {
         "_meta": {
@@ -307,7 +323,10 @@
           "technologies": ["Facebook API", "Parse.com API", "Titanium"]
         },
         "title": "F45 Playoffs",
-        "details": "I created the hybrid mobile application for iOS and Android and used the Parse.com API for storing data and managing authentication."
+        "details": [
+          "I used Titanium to create a HIIT circuit training application for iOS and Android.",
+          "I used parse.com for storing user data and managing authentication."
+        ]
       },
       {
         "_meta": {
@@ -324,53 +343,12 @@
             "Mercurial"
           ]
         },
-        "title": "Web Development Projects I",
-        "details": "I used different technologies to upgrade existing systems."
-      },
-      {
-        "_meta": {
-          "dateStarted": "June 2014",
-          "dateEnded": "August 2014",
-          "technologies": ["Django", "Mezzanine", "PostgreSQL", "AngularJS"]
-        },
-        "title": "Elsie Information System",
-        "details": "A Local Committee Information System for AIESEC in Davao."
-      },
-      {
-        "_meta": {
-          "dateStarted": "November 2012",
-          "dateEnded": "February 2014",
-          "technologies": [
-            "HTML5",
-            "JavaScript",
-            "LimeJS",
-            "NimbusBase",
-            "Django",
-            "south",
-            "REST",
-            "django-tastypie"
-          ]
-        },
-        "title": "The Hidden Cloud Academy for the Overlooked Skills",
-        "details": "An Information Technology project incorporating game-based learning with existing cloud services to improve reading speed and comprehension."
-      },
-      {
-        "_meta": {
-          "dateStarted": "July 2013",
-          "dateEnded": null,
-          "technologies": ["WordPress"]
-        },
-        "title": "Theodore Rosebelt WordPress Theme",
-        "details": "A WordPress theme for an online flower shop."
-      },
-      {
-        "_meta": {
-          "dateStarted": "May 2013",
-          "dateEnded": null,
-          "technologies": ["Django", "Django Haystack"]
-        },
-        "title": "Possibilities",
-        "details": "An online product listing with location aware search presented for the OJT course."
+        "title": "Various Web Development Projects",
+        "details": [
+          "I migrated a legacy system using Django 1.4 to the latest supported version.",
+          "I implemented the formatting of chapters to an original story/fanfic publication site.",
+          "I implemented the login/registration and timeline features for a digital sports network."
+        ]
       },
       {
         "_meta": {
@@ -379,25 +357,9 @@
           "technologies": ["Visual C#", "MySQL"]
         },
         "title": "JPLAUREL AIS",
-        "details": "An Academic Information System (AIS) for the Jose P. Laurel Sr. Elementary School presented for the CS272/CS315 course."
-      },
-      {
-        "_meta": {
-          "dateStarted": "November 2011",
-          "dateEnded": "November 2011",
-          "technologies": ["Python 2.x", "TkInter"]
-        },
-        "title": "iPhone 0.4s Simulator",
-        "details": "A simple object-oriented contact/phonebook manager presented for the IT213 course."
-      },
-      {
-        "_meta": {
-          "dateStarted": "August 2011",
-          "dateEnded": "October 2011",
-          "technologies": ["C++"]
-        },
-        "title": "The King’s Number",
-        "details": "A number game incorporating the set theory of discrete mathematics presented for the MATH422C course."
+        "details": [
+          "I worked with a team to create an Academic Information System (AIS) for the Jose P. Laurel Sr. Elementary School."
+        ]
       }
     ]
   },
@@ -809,7 +771,7 @@
           "_meta": {
             "value": 6
           },
-          "title": "Apps Script"
+          "title": "Google Apps Script"
         },
         {
           "_meta": {
@@ -998,7 +960,7 @@
       {
         "_meta": {
           "position": "Software Engineer",
-          "company": "Willis Towers Watsons",
+          "company": "Willis Towers Watson",
           "emailAddress": "daryl.ronquillo@willistowerswatson.com",
           "mobileNumber": "+63 926 658 4446"
         },
