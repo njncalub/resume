@@ -89,24 +89,7 @@
               "dateEnded": "January 2016"
             },
             "title": "Software Developer",
-            "details": "I created web applications using Python (Django and Flask) and front-end frameworks like AngularJS, Chaplin.js, and Bootstrap. I also created and deployed cross-platform mobile applications using Appcelerator Titanium, which served thousands of daily users."
-          }
-        ]
-      },
-      {
-        "_meta": {
-          "url": "http://hackademy.ph"
-        },
-        "title": "Hackademy",
-        "subtitle": "3F, 1.18 Centron Building, Elpidio Quirino Ave, Davao City, 8000, Davao del Sur, Philippines",
-        "children": [
-          {
-            "_meta": {
-              "dateStarted": "June 2015",
-              "dateEnded": "July 2015"
-            },
-            "title": "Trainer",
-            "details": "I facilitated the training of high school students to create web applications using Python/Django, to improve their school's current information systems."
+            "details": "I created web applications using Python (Django and Flask) and front-end frameworks like AngularJS, Chaplin.js, and Bootstrap. I also created and deployed cross-platform mobile applications using Appcelerator Titanium, which served thousands of daily users. As a way to give back to the community, I also facilitated the training of high school students to create web applications using Python/Django, to improve their school's current information systems."
           }
         ]
       },
